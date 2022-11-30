@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="BIG5">
-<title>Insert title here</title>
+<title>讀卡機</title>
 </head>
 <body>
 package readhealthcardbasicdata;
