@@ -1,35 +1,66 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="BIG5">
-<title>Insert title here</title>
-</head>
-<body>
-public class Demo {
-	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println(getCode(4));//©I¥sgetCode()¤èªk¦C¦L¤@­Ó¥|¦ì¼ÆªºÀH¾÷ÅçÃÒ½Xµ²ªG
-	}
-	/*
-	 * ©w¸q¤@­ÓÀò¨úÀH¾÷ÅçÃÒ½Xªº¤èªk¡GgetCode();
-	 */
-	public static String getCode(int n) {
-		String string = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";//Àx¦s¼Æ¦r0-9 ©M ¤j¤p¼g¦r¥À
-		char[] ch = new char[n]; //«Å§i¤@­Ó¦r¤¸°}¦Cª«¥óch Àx¦s ÅçÃÒ½X
-		for (int i = 0; i < n; i++) {
-			Random random = new Random();//«Ø¥ß¤@­Ó·sªºÀH¾÷¼Æ¥Í¦¨¾¹
-			int index = random.nextInt(string.length());//ªğ¦^[0,string.length)½d³òªºint­È    §@¥Î¡GÀx¦s¤U¼Ğ
-			ch[i] = string.charAt(index);//charAt() : ªğ¦^«ü©w¯Á¤Ş³Bªº char ­È   ==¡nÀx¦s¨ì¦r¤¸°}¦Cª«¥óch¸Ì­±
-		}
-		//±Nchar°}¦C«¬§OÂà´«¬°String«¬§OÀx¦s¨ìresult
-		//String result = new String(ch);//¤èªk¤@¡Gª½±µ¨Ï¥Îºc³y¤èªk      String(char[] value) ¡G¤À°t¤@­Ó·sªº String¡A¨Ï¨äªí¥Ü¦r¤¸°}¦C¤Ş¼Æ¤¤·í«e¥]§tªº¦r¤¸§Ç¦C¡C
-		String result = String.valueOf(ch);//¤èªk¤G¡G String¤èªk   valueOf(char c) ¡Gªğ¦^ char ¤Ş¼Æªº¦r¦êªí¥Ü§Î¦¡¡C
-		return result;
-	}
-	
+  <%@page contentType="image/jpeg" pageEncoding="UTF-8"%>
+<%@ page import="java.awt.*,java.awt.image.*,java.util.*,javax.imageio.*"%>
+<%!
+Color getRandColor(int fc,int bc){//çµ¦å®šç¯„åœç²å¾—éš¨æ©Ÿé¡è‰²
+        Random random = new Random();
+        if(fc>255) fc=255;
+        if(bc>255) bc=255;
+        int r=fc+random.nextInt(bc-fc);
+        int g=fc+random.nextInt(bc-fc);
+        int b=fc+random.nextInt(bc-fc);
+        return new Color(r,g,b);
+        }
+%>
+<%
+//è¨­å®šé é¢ä¸ç·©å­˜
+response.setHeader("Pragma","No-cache");
+response.setHeader("Cache-Control","no-cache");
+response.setDateHeader("Expires", 0);
+
+// åœ¨è¨˜æ†¶é«”ä¸­å‰µå»ºåœ–åƒ
+int width=60, height=20;
+BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
+
+// ç²å–åœ–å½¢ä¸Šä¸‹æ–‡
+Graphics g = image.getGraphics();
+
+//ç”Ÿæˆéš¨æ©Ÿé¡
+Random random = new Random();
+
+// è¨­å®šèƒŒæ™¯è‰²
+g.setColor(getRandColor(200,250));
+g.fillRect(0, 0, width, height);
+
+//è¨­å®šå­—é«”
+g.setFont(new Font("Times New Roman",Font.PLAIN,18));
+
+// éš¨æ©Ÿç”¢ç”Ÿ155æ¢å¹²æ“¾ç·šï¼Œä½¿åœ–åƒä¸­çš„èªè­‰ç¢¼ä¸æ˜“è¢«å…¶ä»–ç¨‹å¼æ¢æ¸¬åˆ°
+g.setColor(getRandColor(160,200));
+for (int i=0;i<155;i++)
+{
+ int x = random.nextInt(width);
+ int y = random.nextInt(height);
+        int xl = random.nextInt(12);
+        int yl = random.nextInt(12);
+ g.drawLine(x,y,x+xl,y+yl);
 }
-</body>
-</html>
+
+// å–éš¨æ©Ÿç”¢ç”Ÿçš„èªè­‰ç¢¼(4ä½å…ƒæ•¸ä½)
+String sRand="";
+for (int i=0;i<4;i++){
+    String rand=String.valueOf(random.nextInt(10));
+    sRand+=rand;
+    // å°‡èªè­‰ç¢¼é¡¯ç¤ºåˆ°åœ–åƒä¸­
+    g.setColor(new Color(20+random.nextInt(110),20+random.nextInt(110),20+random.nextInt(110)));// èª¿ç”¨å‡½æ•¸å‡ºä¾†çš„é¡è‰²ç›¸åŒï¼Œå¯èƒ½æ˜¯å› ç‚ºç¨®å­å¤ªæ¥è¿‘ï¼Œæ‰€ä»¥åªèƒ½ç›´æ¥ç”Ÿæˆ
+    g.drawString(rand,13*i+6,16);
+}
+
+// å°‡èªè­‰ç¢¼å­˜å…¥SESSION
+session.setAttribute("rand",sRand);
+
+// åœ–åƒç”Ÿæ•ˆ
+g.dispose();
+
+// è¼¸å‡ºåœ–åƒåˆ°é é¢
+ImageIO.write(image, "JPEG", response.getOutputStream());
+%>
