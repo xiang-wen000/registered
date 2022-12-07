@@ -8,10 +8,17 @@
 </head>
 <body>
 
+<form action="/action_page.php">
+  <span style="color:red">*</span>姓名
+  <input type="text" id="fname" name="fname" placeholder="姓名"><br><br>
+</form>
+<p></p>
+<form action="/action_page.php">
+  <span style="color:red">*</span>生日
+  <input type="date" id="birthday" name="birthday">
+</form>
 
-<tr>
-     <th><span style="color:red">*</span>姓名</th>
-     <input name="Name" type="text" size="20" id="TB_Name" class="Edit" placeholder="姓名" />
+
 <p></p>
     <th><span style="color:red">*</span>生日</th>
  <input type="date" id="birthday" name="birthday">
