@@ -4,17 +4,15 @@
 <html>
 <head>
 <meta charset="BIG5">
-<title>Insert title here</title>
+<title>Docterschedule</title>
 </head>
 <body>
-<table style="width:100%; border:none;">
+<table style="width:300%; border:none;">
 <tr>
-<td align="center" class="Ttitle">門診<td>
-<td style="width:200px; text-align:center; color:#1f7dbe; ">
+<td align="left" class="Ttitle">門診<td>
+<td style="width:400px; text-align:center; color:#1f7dbe; ">
+<br>
 
-選擇掛號日期：
-<input name="ctl00$ContentPlaceHolder1$RegCal$TB_Date" type="text" value="2022/12/07" size="10" id="ctl00_ContentPlaceHolder1_RegCal_TB_Date" />
-<a id="ctl00_ContentPlaceHolder1_RegCal_LB_Search" class="Btn_Blue" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RegCal$LB_Search&#39;,&#39;&#39;)">查詢</a>
 </td>
 <div id="ctl00_ContentPlaceHolder1_RegCal_PL_App">
 </div>
@@ -26,10 +24,6 @@
 	
 <div id="ctl00_ContentPlaceHolder1_RegCal_UpdatePanel1">
 		
-<div class="BtnDate"><div id="ctl00_ContentPlaceHolder1_RegCal_PL_BtnDate">
-			<a id="ctl00_ContentPlaceHolder1_RegCal_week0" class="Week" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RegCal$week0&#39;,&#39;&#39;)">2022/12/5 - 11</a><a id="ctl00_ContentPlaceHolder1_RegCal_week1" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RegCal$week1&#39;,&#39;&#39;)">2022/12/12 - 18</a><a id="ctl00_ContentPlaceHolder1_RegCal_week2" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RegCal$week2&#39;,&#39;&#39;)">2022/12/19 - 25</a><a id="ctl00_ContentPlaceHolder1_RegCal_week3" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RegCal$week3&#39;,&#39;&#39;)">2022/12/26 - 2023/1/1</a><a id="ctl00_ContentPlaceHolder1_RegCal_week4" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RegCal$week4&#39;,&#39;&#39;)">2023/1/2 - 8</a>
-		</div></div>
-
 
 <div style="font-size:12px; color:#145b11; text-align:left; line-height:20px; margin-bottom:10px;">
 
@@ -114,6 +108,10 @@
 <td class="sun"></td>
 </tr>
 
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="http://localhost:8080/registered/index.jsp" class="w3-bar-item w3-button w3-padding-large w3-white">首頁</a>
 </div>
 
 </div>
