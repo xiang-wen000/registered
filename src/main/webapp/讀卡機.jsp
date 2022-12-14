@@ -7,7 +7,7 @@
 <title>Åª¥d¾÷</title>
 </head>
 <body>
-package readhealthcardbasicdata;
+<%package readhealthcardbasicdata;
 
 import java.io.UnsupportedEncodingException;
 import java.util.Arrays;
@@ -95,6 +95,6 @@ public class ReadData {
             e3.printStackTrace();
         }
     }
-}
+} %>
 </body>
 </html>
