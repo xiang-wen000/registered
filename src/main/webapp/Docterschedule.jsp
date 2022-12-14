@@ -11,7 +11,6 @@
 <tr>
 <td align="center" class="Ttitle">門診<td>
 <td style="width:200px; text-align:center; color:#1f7dbe; ">
-
 選擇掛號日期：
 <input name="ctl00$ContentPlaceHolder1$RegCal$TB_Date" type="text" value="2022/12/07" size="10" id="ctl00_ContentPlaceHolder1_RegCal_TB_Date" />
 <a id="ctl00_ContentPlaceHolder1_RegCal_LB_Search" class="Btn_Blue" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RegCal$LB_Search&#39;,&#39;&#39;)">查詢</a>
