@@ -33,11 +33,9 @@
 <p></p>
   <span style="color:red">*</span>電話
   <input type="text" id="phone" name="phone">
-  <div style="font-size:60%;color:red;">(請填入格式:0981-234-567)</div>
 <p></p>
   <span style="color:red">*</span>家用電話
   <input type="text" id="homephone" name="homephone">
-  <div style="font-size:60%;color:red;">(請填入格式:02-3345-7894)</div>
 <p></p> 
   <text>電子郵件</text>
   <input type="text" id="e-mail" name="e-mail">
@@ -96,10 +94,7 @@
 			areas[17]=['花蓮市','新城鄉','秀林鄉','吉安鄉','壽豐鄉','鳳林鎮','光復鄉','豐濱鄉','瑞穗鄉','萬榮鄉','玉里鎮','卓溪鄉','富里鄉',]; 
 	        
 	        areas[18]=['宜蘭市','頭城鎮','礁溪鄉','壯圍鄉','員山鄉','羅東鎮','三星鄉','大同鄉','五結鄉','冬山鄉','蘇澳鎮','南澳鄉','釣魚臺',]; 
-	        
-	        
-			 
-			
+	
 			function changeCounty(index){
 				var Sinner="";
 				for(var i=0;i<areas[index].length;i++){
@@ -110,6 +105,15 @@
 			}
 			changeCounty(document.getElementById("County-list").selectedIndex);
 		</script>
+<p></p> 	
+<span style="color:red">*</span>緊急連絡人
+<input type="text" id="Emergencycontact" name="Emergencycontact">
+
+
+
+
+
+
 	</body>
 </html>
 
