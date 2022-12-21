@@ -38,6 +38,7 @@
 0</td>
 </tr>
 </table>
+
 <div class="d_dotted"></div>
 <table class="FullTable">
 
@@ -46,3 +47,16 @@
 	</div>
 </body>
 </html>
+</table>
+  border-collapse: collapse;
+}
+tr{
+  border: 1px solid #E0607E;
+}
+td{
+  border: 1px solid #607ee0;
+  padding: 10px 30px;
+  background-color: #E0607E;
+  border-radius: 10px;
+  color: #FFF;
+}
