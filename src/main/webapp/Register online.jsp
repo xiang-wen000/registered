@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="BIG5">
-<title>Insert title here</title>
+<title>Register online</title>
 </head>
 <body>
 <table>

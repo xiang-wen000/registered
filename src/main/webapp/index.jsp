@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,26 +20,28 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="http://localhost:8080/registered/Docterschedule.jsp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">�w���ݶE</a>
-    <a href="http://localhost:8080/registered/appointment.jsp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">�n�J</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large ">首頁</a>
+    <a href="http://localhost:8080/registered/Docterschedule.jsp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">預約看診</a>
+    <a href="http://localhost:8080/registered/appointment.jsp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">登入</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large ">查詢/取消預約掛號</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="http://localhost:8080/registered/Docterschedule.jsp" class="w3-bar-item w3-button w3-padding-large">�w���ݶE</a>
-    <a href="http://localhost:8080/registered/appointment.jsp" class="w3-bar-item w3-button w3-padding-large">�n�J</a>
+    <a href="http://localhost:8080/registered/Docterschedule.jsp" class="w3-bar-item w3-button w3-padding-large">預約看診</a>
+    <a href="http://localhost:8080/registered/appointment.jsp" class="w3-bar-item w3-button w3-padding-large">登入</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-red">查詢/取消預約掛號</a>
   </div>
 </div>
 
 <!-- Header -->
 <body style="background-color:AliceBlue;">
 <header class="w3-container w3-center" style="padding:128px 16px">
-  <h1 class="w3-margin w3-jumbo">�ݤ�E��</h1>
-  <p class="w3-xlarge">���������w���t��</p>
-   <a href="http://localhost:8080/registered/Docterschedule.jsp" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">�w��</a>
+  <h1 class="w3-margin w3-jumbo">陳毅文診所</h1>
+  <p class="w3-xlarge">網路掛號預約系統</p>
+   <a href="http://localhost:8080/registered/Docterschedule.jsp" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">預約</a>
 </header>
 
 <!-- First Grid -->
@@ -47,10 +49,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <div class="w3-content">
     <div class="w3-twothird">
       <h1>Doctor Schedule</h1>
-      <h5 class="w3-padding-32">�A�ݬݭn���ƻ�</h5>
+      <h5 class="w3-padding-32">點進連結進行預約~</h5>
 
-      <p class="w3-text-black">�A�ݬݭn���ƻ�</p>
-    </div>
+     <a href="http://localhost:8080/registered/Docterschedule.jsp" class="w3-bar-item w3-button w3-padding-large w3-black">醫師行事曆</a>
+</div>
 
     <div class="w3-third w3-center">
       <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
@@ -67,26 +69,37 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
     <div class="w3-twothird">
       <h1>Doctor Schedule</h1>
-      <h5 class="w3-padding-32">�A�ݬݭn���ƻ�</h5>
+      <h5 class="w3-padding-32">掛號服務時間及門診報到截止時間</h5>
 
-      <p class="w3-text-grey">�A�ݬݭn���ƻ�</p>
+      <p class="w3-text-grey">再看看要打甚麼</p>
     </div>
   </div>
 </div>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
-    <h1 class="w3-margin w3-xlarge">Quote of the day: live life</h1>
+    <h1 class="w3-margin w3-xlarge">掛號辦法</h1>
+    <h1 class="w3-margin w3-xlarge">
+    請攜帶國民身分證及健保卡。
+    <BR>
+6歲以下兒童請攜帶健兒手冊及健保卡。
+    <BR>
+新生兒需辦理戶口登記，加入健保後始能享有全民健保之保障。</h1>
+    <BR>
 </div>
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
   <div class="w3-xlarge w3-padding-32">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <h1 class="w3-margin w3-xlarge">預約注意事項</h1>
+     28天內之門診皆可預約掛號。
+     <BR>
+     預約掛號者請直接治門診看診。
+     <BR>
+     取消預約掛號者，請於開診前一日以電話告知。
+     <BR>
+     預約掛號請撥 04-7810566
+</div>
+
 
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
