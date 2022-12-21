@@ -7,8 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-<form action="/action_page.php">
   <span style="color:red">*</span>姓名
   <input type="text" id="fname" name="fname">
 <p></p>
@@ -37,7 +35,7 @@
   <span style="color:red">*</span>家用電話
   <input type="text" id="homephone" name="homephone">
 <p></p> 
-  <text>電子郵件</text>
+  <span>電子郵件</span>
   <input type="text" id="e-mail" name="e-mail">
 <p></p>	
 <span style="color:red">*</span>戶籍地址
@@ -106,11 +104,25 @@
 			changeCounty(document.getElementById("County-list").selectedIndex);
 		</script>
 <p></p> 	
-<span style="color:red">*</span>緊急連絡人
+<span style="color:red">*</span>緊急聯絡人
 <input type="text" id="Emergencycontact" name="Emergencycontact">
-
-
-
+<p></p> 	
+<span style="color:red">*</span>聯絡人電話
+<input type="text" id="Emergencyphone" name="Emergencyphone">
+<p></p> 	
+<span style="color:red">*</span>關係
+<input type="radio" id="夫妻" name="your relation" value="夫妻">
+<label for="夫妻">夫妻</label>
+<input type="radio" id="母子(女)" name="your relation" value="母子(女)">
+<label for="母子(女)">母子(女)</label>
+<input type="radio" id="父子(女)" name="your relation" value="父子(女)">
+<label for="父子(女)">父子(女)</label>
+<input type="radio" id="兄弟姊妹" name="your relation" value="兄弟姊妹">
+<label for="兄弟姊妹">兄弟姊妹</label>
+<input type="radio" id="其他" name="your relation" value="其他">
+<label for="其他">其他</label>
+<p></p>
+<a href="http://localhost:8080/registered/Basicinformation.jsp">確認</a>---預約成功的網址(記得更改)
 
 
 
@@ -119,11 +131,3 @@
 
 
   
-</form>
-
-
-
-
-
-</body>
-</html>
