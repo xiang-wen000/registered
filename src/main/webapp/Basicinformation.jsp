@@ -49,7 +49,7 @@
 			<select id="area-list"></select>
 		
 		<script type="text/javascript">
-			var Counties=['台北市','新北市','基隆市','桃園市','新竹市','新竹縣','苗栗縣','台中市','彰化縣','南投縣','雲林縣','嘉義市','嘉義縣','臺南市','高雄市','屏東縣','臺東縣','花蓮縣','宜蘭縣','澎湖縣','金門縣','連江縣'];
+			var Counties=['台北市','新北市','基隆市','桃園市','新竹市','新竹縣','苗栗縣','台中市','彰化縣','南投縣','雲林縣','嘉義市','嘉義縣','臺南市','高雄市','屏東縣','臺東縣','花蓮縣','宜蘭縣'];
 			var CountySelect=document.getElementById("County-list");
 			var inner="";
 			for(var i=0;i<Counties.length;i++){
