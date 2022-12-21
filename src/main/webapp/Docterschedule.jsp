@@ -3,8 +3,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="BIG5">
-<title>Docterschedule</title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #AFEEEE		;
+  text-align: CENTER;
+  padding: 7px;
+}
+
+tr:nth-child(even) {
+  background-color: #AFEEEE		;
+}
+</style>
 </head>
 <body>
 <table style="width:300%; border:none;">
@@ -33,7 +48,7 @@
 <div id="ctl00_ContentPlaceHolder1_RegCal_UpdatePanel1">
 		
 
-<div style="font-size:12px; color:#145b11; text-align:left; line-height:20px; margin-bottom:10px;">
+<div style="font-size:12px; color:#afeeee; text-align:center; line-height:20px; margin-bottom:10px;">
 
 </div>
 
@@ -45,7 +60,7 @@
 </div>          
 <table class="RegTable">
 <style>
-.button {
+.button {nth-child:odd
   border: none;
   color: white;
   padding: 15px 32px;
@@ -57,7 +72,7 @@
   cursor: pointer;
 }
 
-.button1 {background-color: #AFEEEE;} /* 林東照 */
+.button1 {nth-child:odd} /* 林東照 */
 </style>
 <tr>
 <th>日期</th>
@@ -97,24 +112,18 @@
 
 <tr>
 <td>2022/12/02<br />(星期五)</td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
+<td><button class="button1" onclick="<a href='http://localhost:8080/registered/appointment.jsp' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
+<td><button class="button1" onclick="<a href='http://localhost:8080/registered/appointment.jsp' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
+<td><button class="button1" onclick="<a href='http://localhost:8080/registered/appointment.jsp' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
 </tr>
 
 <tr>
 <td class="sat">2022/12/03<br />(星期六)</td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
+<td><button class="button1" onclick="<a href='http://localhost:8080/registered/appointment.jsp' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
+<td><button class="button1" onclick="<a href='http://localhost:8080/registered/appointment.jsp' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
+<td><button class="button1" onclick="<a href='http://localhost:8080/registered/appointment.jsp' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
 </tr>
 
-<tr>
-<td class="sun">2022/12/04<br />(星期日)</td>
-<td class="sun"></td>
-<td class="sun"></td>
-<td class="sun"></td>
-</tr>
 
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
