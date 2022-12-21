@@ -122,7 +122,7 @@
 <input type="radio" id="其他" name="your relation" value="其他">
 <label for="其他">其他</label>
 <p></p>
-<a href="http://localhost:8080/registered/Basicinformation.jsp">確認</a>---預約成功的網址(記得更改)
+<a href="C:\\Users\\User\\Documents\\GitHub\\registered\\src\\main\\webapp\\AppointmentSuccess.jsp">確認</a>---預約成功的網址(記得更改)
 
 
 
