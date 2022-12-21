@@ -8,22 +8,19 @@
 </head>
 
 <body>
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="http://localhost:8080/registered/index.jsp" class="w3-bar-item w3-button w3-padding-large w3-white">首頁</a>
 <br>
-<tr>
-<tr>
         <th style="width: 200px;">身份證/居留證/病歷號</th>
         <td colspan="2">
         <input name="ctl00$ContentPlaceHolder1$TB_ID" type="text" maxlength="10" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" />
         <div style="font-size:60%;color:red;">外籍人士請輸入居留證(舊式)或護照號碼前10 碼</div>
         </td>
-</tr>
+
 
 <div id="ctl00_ContentPlaceHolder1_PL_1st">
 		
-<tr>
+
           <th>驗證碼</th>
           <td style="width: 80px;">
           <input name="ctl00$ContentPlaceHolder1$TB_CODE" type="text" size="10" id="ctl00_ContentPlaceHolder1_TB_CODE" class="Edit" /></td>
