@@ -83,10 +83,13 @@ tr:nth-child(even) {
 
 <tr>
 <td>2022/11/28<br />(星期一)</td>
+
+
+
 <td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
 <td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
 <td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-</style>
+
 </tr>
 
 <tr>

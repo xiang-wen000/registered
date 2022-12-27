@@ -1,20 +1,40 @@
 <%@ page language="java" contentType="text/html; charset=BIG5"
     pageEncoding="BIG5"%>
 <!DOCTYPE html>
+
 <html>
 <head>
 <meta charset="BIG5">
-<title>appointment</title>
+<title>Register online</title>
 </head>
-
 <body>
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="http://localhost:8080/registered/index.jsp" class="w3-bar-item w3-button w3-padding-large w3-white">首頁</a>
+<table>
+
+<a href="http://localhost:8080/registered/index.jsp">首頁</a>
+<div class="Mtitle">網路掛號</div>
+
+  <colgroup span="1" style="background-color:aliceblue;"></colgroup>
+  <colgroup style="background-color:#FFECEC	;"></colgroup>
+  <td colspan=4>2022/12/16 星期五 早上 8:30~12:00</td>
+  
+  <tr>
+    <th>看診醫師</th>
+    <th>已掛號人次</th>
+  </tr>
+  <tr>
+    <th>林東照醫師</th>
+    <td>0</td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+<body>     
 <br>
 <tr>
 <tr>
-        <th style="width: 200px;">身份證/居留證/病歷號</th>
+        <th style="width: 200px;">身份證/居留證</th>
         <td colspan="2">
         <input name="ctl00$ContentPlaceHolder1$TB_ID" type="text" maxlength="10" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" />
         <div style="font-size:60%;color:red;">外籍人士請輸入居留證(舊式)或護照號碼前10 碼</div>
