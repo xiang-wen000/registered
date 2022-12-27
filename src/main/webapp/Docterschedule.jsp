@@ -24,19 +24,7 @@ tr:nth-child(even) {
 <body>
 <table style="width:300%; border:none;">
 <tr>
-<<<<<<< HEAD
-<td align="left" class="Ttitle">門診<td>
-<td style="width:400px; text-align:center; color:#1f7dbe; ">
-<br>
 
-=======
-<td align="center" class="Ttitle">門診<td>
-<td style="width:200px; text-align:center; color:#1f7dbe; ">
-選擇掛號日期：
-<input name="ctl00$ContentPlaceHolder1$RegCal$TB_Date" type="text" value="2022/12/07" size="10" id="ctl00_ContentPlaceHolder1_RegCal_TB_Date" />
-<a id="ctl00_ContentPlaceHolder1_RegCal_LB_Search" class="Btn_Blue" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$RegCal$LB_Search&#39;,&#39;&#39;)">查詢</a>
->>>>>>> c88673b8af22322cf22e533de1112190b4829b81
-</td>
 <div id="ctl00_ContentPlaceHolder1_RegCal_PL_App">
 </div>
 </tr>
@@ -131,7 +119,7 @@ tr:nth-child(even) {
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="http://localhost:8080/registered/index.jsp" class="w3-bar-item w3-button w3-padding-large w3-white">首頁</a>
+ <input type="button" value="首頁" onclick="location.href='http://localhost:8080/registered/index.jsp'">
 </div>
 
 </div>
