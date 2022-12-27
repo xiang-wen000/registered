@@ -48,9 +48,10 @@ tr:nth-child(even) {
 </div>          
 <table class="RegTable">
 <style>
-.button {nth-child:odd
-  border: none;
-  color: white;
+.DrName {
+  
+  border: #ECFFFF;
+  color:#ECFFFF;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -59,7 +60,7 @@ tr:nth-child(even) {
   margin: 4px 2px;
   cursor: pointer;
 }
- .button1 {nth-child:odd} /* 찶찯롭 */ 
+ .DrName {nth-child:odd} /* 찶찯롭 */ 
 </style>
 
 <tr>
@@ -71,44 +72,43 @@ tr:nth-child(even) {
 
 <tr>
 <td>2022/11/28<br />(촒늑�@)</td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
 </tr>
 
 <tr>
 <td>2022/11/29<br />(촒늑짨)</td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
 </tr>
-
 <tr>
 <td>2022/11/30<br />(촒늑짽)</td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
 </tr>
 
 <tr>
 <td>2022/12/01<br />(촒늑�|)</td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
 </tr>
 
 <tr>
 <td>2022/12/02<br />(촒늑ㄽ)</td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
 </tr>
 
 <tr>
 <td class="sat">2022/12/03<br />(촒늑ㅋ)</td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
-<td><input type="button" value="찶찯롭" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
+<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">찶찯롭</button></td>
 </tr>
 
 
