@@ -24,7 +24,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large ">首頁</a>
     <a href="http://localhost:8080/registered/Docterschedule.jsp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">預約看診</a>
-    <a href="http://localhost:8080/registered/appointment.jsp" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">登入</a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large ">查詢/取消預約掛號</a>
   </div>
 
@@ -43,38 +42,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
   <p class="w3-xlarge">網路掛號預約系統</p>
    <a href="http://localhost:8080/registered/Docterschedule.jsp" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">預約</a>
 </header>
-
-<!-- First Grid -->
-<div class="w3-row-padding w3-white w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h1>Doctor Schedule</h1>
-      <h5 class="w3-padding-32">點進連結進行預約~</h5>
-
-     <a href="http://localhost:8080/registered/Docterschedule.jsp" class="w3-bar-item w3-button w3-padding-large w3-black">醫師行事曆</a>
-</div>
-
-    <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
-    </div>
-  </div>
-</div>
-
-<!-- Second Grid -->
-<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
-    </div>
-
-    <div class="w3-twothird">
-      <h1>Doctor Schedule</h1>
-      <h5 class="w3-padding-32">掛號服務時間及門診報到截止時間</h5>
-
-      <p class="w3-text-grey">再看看要打甚麼</p>
-    </div>
-  </div>
-</div>
 
 <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
     <h1 class="w3-margin w3-xlarge">掛號辦法</h1>
