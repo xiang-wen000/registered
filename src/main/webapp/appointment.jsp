@@ -10,7 +10,7 @@
 <body>
 <table>
 
-<a href="http://localhost:8080/registered/index.jsp">首頁</a>
+<a href="http://localhost:8080/registered/Docterschedule.jsp">上一頁</a>
 <div class="Mtitle">網路掛號</div>
 
   <colgroup span="1" style="background-color:aliceblue;"></colgroup>
