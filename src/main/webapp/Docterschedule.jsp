@@ -11,13 +11,13 @@ table {
 }
 
 td, th {
-  border: 1px solid #AFEEEE		;
+  border: 1px solid #D2E9FF		;
   text-align: CENTER;
   padding: 7px;
 }
 
 tr:nth-child(even) {
-  background-color: #AFEEEE		;
+  background-color: #D2E9FF	;
 }
 </style>
 </head>
@@ -48,19 +48,17 @@ tr:nth-child(even) {
 </div>          
 <table class="RegTable">
 <style>
-.DrName {
-  
-  border: #ECFFFF;
-  color:#ECFFFF;
-  padding: 15px 32px;
+a:link, a:visited {
+  background-color:#ECF5FF;
+  border: 2px solid #C4E1FF;
+  color: black;
+  padding: 2.5px 5px;
+  border-radius: 6px;
+  font-size:30%
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
 }
- .DrName {nth-child:odd} /* 林東照 */ 
 </style>
 
 <tr>
@@ -72,52 +70,50 @@ tr:nth-child(even) {
 
 <tr>
 <td>2022/11/28<br />(星期一)</td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
 </tr>
 
 <tr>
 <td>2022/11/29<br />(星期二)</td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
 </tr>
 <tr>
 <td>2022/11/30<br />(星期三)</td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
 </tr>
 
 <tr>
 <td>2022/12/01<br />(星期四)</td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
 </tr>
 
 <tr>
 <td>2022/12/02<br />(星期五)</td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
 </tr>
 
 <tr>
 <td class="sat">2022/12/03<br />(星期六)</td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
-<td><button onclick="document.location='http://localhost:8080/registered/appointment.jsp'">林東照</button></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
+<td><a href="http://localhost:8080/registered/appointment.jsp" target="_blank">林東照</a></td>
 </tr>
 
 
-<div class="w3-top">
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
- <input type="button" value="首頁" onclick="location.href='http://localhost:8080/registered/index.jsp'">
-</div>
 
-</div>
+ <input type="button" value="首頁" onclick="location.href='http://localhost:8080/registered/index.jsp'">
+
+
+
 </body>
 </html>
