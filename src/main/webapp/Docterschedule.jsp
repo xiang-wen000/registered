@@ -59,9 +59,9 @@ tr:nth-child(even) {
   margin: 4px 2px;
   cursor: pointer;
 }
-
-.button1 {nth-child:odd} /* 林東照 */
+ .button1 {nth-child:odd} /* 林東照 */ 
 </style>
+
 <tr>
 <th>日期</th>
 <th>上午(08:30~12:00)</th>
@@ -71,48 +71,44 @@ tr:nth-child(even) {
 
 <tr>
 <td>2022/11/28<br />(星期一)</td>
-
-
-
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
 </tr>
 
 <tr>
 <td>2022/11/29<br />(星期二)</td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
 </tr>
 
 <tr>
 <td>2022/11/30<br />(星期三)</td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
 </tr>
 
 <tr>
 <td>2022/12/01<br />(星期四)</td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='RegDr.aspx?Kind=2&dept=ME1&Date=2022/12/08&Sect=1220&Noon=2' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
 </tr>
 
 <tr>
 <td>2022/12/02<br />(星期五)</td>
-<td><button class="button1" onclick="<a href='http://localhost:8080/registered/appointment.jsp' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='http://localhost:8080/registered/appointment.jsp' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='http://localhost:8080/registered/appointment.jsp' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
 </tr>
 
 <tr>
 <td class="sat">2022/12/03<br />(星期六)</td>
-<td><button class="button1" onclick="<a href='http://localhost:8080/registered/appointment.jsp' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='http://localhost:8080/registered/appointment.jsp' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
-<td><button class="button1" onclick="<a href='http://localhost:8080/registered/appointment.jsp' title='已看：0人，已掛：0人，目前叫號：0號'>">林東照</button></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
+<td><input type="button" value="林東照" onclick="location.href='http://localhost:8080/registered/appointment.jsp'"></td>
 </tr>
 
 
