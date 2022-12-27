@@ -105,7 +105,7 @@
 			}
 			changeCounty(document.getElementById("County-list").selectedIndex);
 		</script>
-<<<<<<< HEAD
+		
 <p></p> 	
 <span style="color:red">*</span>緊急聯絡人
 <input type="text" id="Emergencycontact" name="Emergencycontact">
