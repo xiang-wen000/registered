@@ -3,6 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="100px" frameborder="0" scrolling="no">
+</iframe>
 <style>
 table {
   font-family: arial, sans-serif;

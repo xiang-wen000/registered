@@ -28,38 +28,14 @@ body, h1, h2, h3, h4, h5, h6 {
 </style>
 </head>
 <body>
-
-	<!-- Navbar -->
-	<div class="w3-top">
-		<div class="w3-bar w3-blue w3-card w3-left-align w3-large">
-			<a
-				class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
-				href="javascript:void(0);" onclick="myFunction()"
-				title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a> <a
-				href="#" class="w3-bar-item w3-button w3-padding-large ">首頁</a> <a
-				href="http://localhost:8080/registered/Docterschedule.jsp"
-				class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">預約看診</a>
-			<a href="#" class="w3-bar-item w3-button w3-padding-large ">查詢/取消預約掛號</a>
-		</div>
-
-		<!-- Navbar on small screens -->
-		<div id="navDemo"
-			class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-			<a href="http://localhost:8080/registered/Docterschedule.jsp"
-				class="w3-bar-item w3-button w3-padding-large">預約看診</a> <a
-				href="http://localhost:8080/registered/appointment.jsp"
-				class="w3-bar-item w3-button w3-padding-large">登入</a> <a href="#"
-				class="w3-bar-item w3-button w3-padding-large w3-red">查詢/取消預約掛號</a>
-		</div>
-	</div>
-
+<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="100px" frameborder="0" scrolling="no">
+</iframe>
+	
 	<!-- Header -->
 <body style="background-color: AliceBlue;">
 	<header class="w3-container w3-center" style="padding: 128px 16px">
 		<h1 class="w3-margin w3-jumbo">陳毅文診所</h1>
 		<p class="w3-xlarge">網路掛號預約系統</p>
-		<a href="http://localhost:8080/registered/Docterschedule.jsp"
-			class="w3-button w3-black w3-padding-large w3-large w3-margin-top">預約</a>
 	</header>
 
 	<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">

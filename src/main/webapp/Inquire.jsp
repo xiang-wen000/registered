@@ -4,9 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="100px" frameborder="0" scrolling="no">
+</iframe>
 </head>
+
 <body>
+
 <td valign="top">
 <div id="MainNote">
 <div class="NoteBox">
