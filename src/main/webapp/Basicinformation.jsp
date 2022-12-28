@@ -37,7 +37,7 @@
   <span style="color:red">*</span>電話
   <input type="text" id="phone" name="phone">
 <p></p>
-  <span style="color:red">*</span>家用電話
+  <text>家用電話</text>
   <input type="text" id="homephone" name="homephone">
 <p></p> 
   <text>電子郵件</text>
