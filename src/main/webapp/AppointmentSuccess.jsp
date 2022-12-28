@@ -1,16 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=BIG5"
     pageEncoding="BIG5"%>
 <!DOCTYPE html>
+<jsp:useBean id='DBConfig' scope='application' class='hitstd.group.tool.database.DBConfig' />
 <html>
 <head>
 <meta charset="BIG5">
 <title>Insert title here</title>
 </head>
 <body>
-<%
-            String fname = request.getParameter("fname");  
-            String Emergencyphone = (String)session.getAttribute("Emergencyphone"); 
-         %>  
+
 <style type='text/css'>
 .SuccTable
 {
@@ -30,7 +28,7 @@ width:100%; margin:0 auto;border-collapse:collapse; border:solid 1px #ddd;
 
 <table class='SuccTable' style='margin-top:5px;'><tr><th colspan='4' style='background-color:#dbfddd;'>預約的日期和時間</td>
 <th>看診醫師</th><td>林東照</td></tr>
-<tr><th>姓名</th><td colspan='3'><%=re %></td>
+<tr><th>姓名</th><td colspan='3'><%=red %></td>
 <th colspan='2' style='background-color:#ffeafb;'>掛號號碼</th></tr>
 <tr><th>身份證字號</th><td colspan='3'>F230*****1</td>
 <td colspan='2' rowspan='2' style='font-size:25px; color:#ff0000; font-weight:bold;'>001</td></tr>
