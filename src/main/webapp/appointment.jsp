@@ -28,8 +28,13 @@
 </body>
 </html>
 
-
 <body>     
+
+<p></p>
+   <th style="width: 200px;">身份證字號</th>
+   <td colspan="2">
+   <input name="ctl00$ContentPlaceHolder1$TB_ID" type="text" maxlength="10" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" />
+        </td>
 
 <p></p>
   <input type="radio" id="初診" name="record" value="初診">
@@ -37,40 +42,15 @@
   <input type="radio" id="複診" name="record" value="複診">
   <label for="複診">複診</label>
 
-
-
 <p></p>
-   <th style="width: 200px;">身份證/居留證</th>
-   <td colspan="2">
-   <input name="ctl00$ContentPlaceHolder1$TB_ID" type="text" maxlength="10" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" />
-   <div style="font-size:60%;color:red;">外籍人士請輸入居留證(舊式)或護照號碼前10 碼</div>
-        </td>
-</tr>
 
 <a href="http://localhost:8080/registered/appointment.jsp">確認</a>
 <a href="http://localhost:8080/registered/appointment.jsp">重新填寫</a>
 
-
-<tr>
         <td colspan="3" style="text-align: center; height: 50px;">
         <div class="RedMsg">
         </div>
       
         </td>
-</tr>
-</body>
-</html>
-<body>
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
