@@ -61,5 +61,6 @@
         <a href="http://localhost:8080/registered/appointment.jsp">­«·s¶ñ¼g</a>
         </td>
 </tr>
+
 </body>
 </html>

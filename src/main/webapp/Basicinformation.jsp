@@ -8,9 +8,12 @@
 </head>
 <body>
 
-<form action="/action_page.php">
+<form action="AppointmentSuccess.jsp" method="post">
   <span style="color:red">*</span>姓名
   <input type="text" id="fname" name="fname">
+<p></p>
+ <span style="color:red">*</span>身分證字號
+  <input type="text" id="appointmentid" name="appointmentid">
 <p></p>
   <span style="color:red">*</span>生日
   <input type="date" id="birthday" name="birthday" value="yyyy-mm-dd">
