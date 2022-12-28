@@ -8,6 +8,14 @@
 </head>
 <body>
    <%
+    初診 = input ("a: ");
+    複診 = input ("b: ");
+    
+    if click "a" print <a herf = "http://localhost:8080/registered/Basicinformation1.jsp"></a>
+    if click "b" 
+    
+    
+    
 	int a=10;
 	out.println(" 變數 a=10 <BR>");
 	
