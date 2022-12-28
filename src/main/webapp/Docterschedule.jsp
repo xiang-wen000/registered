@@ -111,8 +111,6 @@ a:link, a:visited {
 
 
 
- <input type="button" value="­º­¶" onclick="location.href='http://localhost:8080/registered/index.jsp'">
-
 
 
 </body>
