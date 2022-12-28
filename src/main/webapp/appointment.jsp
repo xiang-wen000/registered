@@ -1,61 +1,73 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-
 <html>
 <head>
-<meta charset="BIG5">
-<title>Register online</title>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 </head>
-<body>
 <table>
 
-<a href="http://localhost:8080/registered/Docterschedule.jsp">¤W¤@­¶</a>
-<div class="Mtitle">ºô¸ô±¾¸¹</div>
+<div class="Mtitle">ç¶²è·¯æŽ›è™Ÿ</div>
 
   <colgroup span="1" style="background-color:aliceblue;"></colgroup>
   <colgroup style="background-color:#FFECEC	;"></colgroup>
-  <td colspan=4>2022/12/16 ¬P´Á¤­ ¦­¤W 8:30~12:00</td>
+  <td colspan=4>2022/12/16 æ˜ŸæœŸäº” æ—©ä¸Š 8:30~12:00</td>
   
   <tr>
-    <th>¬Ý¶EÂå®v</th>
-    <th>¤w±¾¸¹¤H¦¸</th>
+    <th>çœ‹è¨ºé†«å¸«</th>
+    <th>å·²æŽ›è™Ÿäººæ¬¡</th>
   </tr>
   <tr>
-    <th>ªLªF·ÓÂå®v</th>
+    <th>æž—æ±ç…§é†«å¸«</th>
     <td>0</td>
   </tr>
-      
-<br>
-<tr>
-<tr>
-        <th style="width: 200px;">¨­¥÷ÃÒ/©~¯dÃÒ</th>
-        <td colspan="2">
-        <input name="ctl00$ContentPlaceHolder1$TB_ID" type="text" maxlength="10" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" />
-        <div style="font-size:60%;color:red;">¥~Äy¤H¤h½Ð¿é¤J©~¯dÃÒ(ÂÂ¦¡)©ÎÅ@·Ó¸¹½X«e10 ½X</div>
+</table>
+</body>
+</html>
+
+
+<body>     
+
+<p></p>
+  <input type="radio" id="åˆè¨º" name="record" value="åˆè¨º">
+Â  <label for="åˆè¨º">åˆè¨º</label>
+  <input type="radio" id="è¤‡è¨º" name="record" value="è¤‡è¨º">
+Â  <label for="è¤‡è¨º">è¤‡è¨º</label>
+
+
+
+<p></p>
+   <th style="width: 200px;">èº«ä»½è­‰/å±…ç•™è­‰</th>
+   <td colspan="2">
+   <input name="ctl00$ContentPlaceHolder1$TB_ID" type="text" maxlength="10" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" />
+   <div style="font-size:60%;color:red;">å¤–ç±äººå£«è«‹è¼¸å…¥å±…ç•™è­‰(èˆŠå¼)æˆ–è­·ç…§è™Ÿç¢¼å‰10 ç¢¼</div>
         </td>
 </tr>
 
-<div id="ctl00_ContentPlaceHolder1_PL_1st">
-		
-<tr>
-          <th>ÅçÃÒ½X</th>
-          <td style="width: 80px;">
-          <input name="ctl00$ContentPlaceHolder1$TB_CODE" type="text" size="10" id="ctl00_ContentPlaceHolder1_TB_CODE" class="Edit" /></td>
-          <td>
-          <img id="ctl00_ContentPlaceHolder1_ImgChkCode" class="pic" src="https://www.scmh.org.tw/CheckImageCode.aspx" /></td>
-</tr>
-      
-</div>
+<a href="http://localhost:8080/registered/appointment.jsp">é‡æ–°å¡«å¯«</a>
+
 
 <tr>
         <td colspan="3" style="text-align: center; height: 50px;">
         <div class="RedMsg">
         </div>
-        <a href="http://localhost:8080/registered/Basicinformation.jsp">¤U¤@¨B</a>
-        <a href="http://localhost:8080/registered/appointment.jsp">­«·s¶ñ¼g</a>
+      
         </td>
 </tr>
+</body>
+</html>
+<body>
+
+
+
+
+
+
+
+
+
+
 
 </body>
 </html>
