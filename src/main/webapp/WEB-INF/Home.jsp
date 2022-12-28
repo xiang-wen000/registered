@@ -8,10 +8,9 @@
 </head>
 
 <body>
-<html>
 <head>
 <title>Clinic Appointment System</title>
-<meta charset=BIG5">
+<meta charset=BIG5>
 <meta name="viewport" content="width=device-width, initial-scale="1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet"
@@ -36,7 +35,7 @@ body, h1, h2, h3, h4, h5, h6 {
 </head>
 <body>
 
-	<!-- Navbar -->
+	
 	<div class="w3-top">
 		<div class="w3-bar w3-white w3-card w3-left-align w3-large">
  
