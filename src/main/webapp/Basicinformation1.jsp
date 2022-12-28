@@ -6,57 +6,28 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+
 <body>
-<table>
 
-<text>網路掛號</text>
+<form action="/action_page.php">
+  <span style="color:red">*</span>姓名
+  <input type="text" id="fname" name="fname">
 
-  <colgroup span="1" style="background-color:aliceblue;"></colgroup>
-  <colgroup style="background-color:#FFECEC	;"></colgroup>
-  <td colspan=4>2022/12/16 星期五 早上 8:30~12:00</td>
-  
-  <tr>
-    <th>看診醫師</th>
-    <th>已掛號人次</th>
-  </tr>
-  <tr>
-    <th>林東照醫師</th>
-    <td>0</td>
-  </tr>
-</table>
+<p></p>
+  <span style="color:red">*</span>性別
+  <input type="radio" id="男性" name="your gender" value="男性">
+  <label for="男性">男性</label>
+  <input type="radio" id="女性" name="your gender" value="女性">
+  <label for="女性">女性</label>
+
+<p></p>
+  <span style="color:red">*</span>電話
+  <input type="text" id="phone" name="phone">
+
+<p></p>
+<a href="http://localhost:8080/registered/AppointmentSuccess.jsp">確認</a>
+
 </body>
 </html>
- 
- <body>
- 
-<p></p>
-  <input type="radio" id="初診" name="record" value="初診">
-  <label for="初診">初診</label>
-  <input type="radio" id="複診" name="record" value="複診">
-  <label for="複診">複診</label>
 
-
-<p></p>
- <text>身分證字號</text>
-
-
- <input type="text" id="appointmentid" name="appointmentid">
-
-
-
-</tr>
-
-<p></p>
-<a href="確認的網址">確認</a>
-<a href="http://localhost:8080/registered/Basicinformation1.jsp">重新填寫</a>
-
-
-<tr>
-        <td colspan="3" style="text-align: center; height: 50px;">
-        <div class="RedMsg">
-        </div>
-      
-        </td>
-</tr>
-</body>
-</html>
+</form>
