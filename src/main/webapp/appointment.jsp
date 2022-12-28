@@ -25,12 +25,7 @@
     <th>林東照醫師</th>
     <td>0</td>
   </tr>
-</table>
-</body>
-</html>
-
-
-<body>     
+      
 <br>
 <tr>
 <tr>
