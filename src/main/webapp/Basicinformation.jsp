@@ -3,30 +3,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+   
+}
+
+td, th {
+  border: 1px solid #BA4A00;
+  text-align: left;
+  padding: 8px;
+ 
+}
+
+tr:nth-child(even) {
+  background-color: #FFEEDD;
+}
+</style>
 </head>
 <body>
 
-<form action="/action_page.php">
-  <span style="color:red">*</span>姓名
-  <input type="text" id="fname" name="fname">
 
-<p></p>
-  <span style="color:red">*</span>性別
-  <input type="radio" id="男性" name="your gender" value="男性">
-  <label for="男性">男性</label>
-  <input type="radio" id="女性" name="your gender" value="女性">
-  <label for="女性">女性</label>
+<table>
+  
+  <tr>
+</tr>
+  <tr>
+  
+  
+<th>身份字號/病歷號</th>
+<td><input name="ctl00$ContentPlaceHolder1$TB_ID" type="text" value="" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" />
 
-<p></p>
-  <span style="color:red">*</span>手機電話
-  <input type="text" id="phone" name="phone">
+<div style="font-size:70%;color:red;">請輸入身份證字號或病歷號</div>
 
-<p></p>
-<a href="http://localhost:8080/registered/AppointmentSuccess.jsp">確認</a>
-
+</td>
+</tr>
+  <tr>
+  
+</table>
+<center>
+<a id="ctl00_ContentPlaceHolder1_LB_Search" class="Btn_Green" href="http://localhost:8080/registered/Cancel.jsp">查詢</a>
 </body>
 </html>
 
-</form>

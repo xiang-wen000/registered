@@ -33,13 +33,24 @@ body, h1, h2, h3, h4, h5, h6 {
 	
 	<!-- Header -->
 <body style="background-color: AliceBlue;">
+
 	<header class="w3-container w3-center" style="padding: 128px 16px">
 		<h1 class="w3-margin w3-jumbo">陳毅文診所</h1>
 		<p class="w3-xlarge">網路掛號預約系統</p>
+<<<<<<< Updated upstream
 	<center>
 	<img src="https://ppt.cc/fR12Jx@.png" alt="Trulli" width="500" height="500">
 
 	
+=======
+        
+        
+        
+		<a href="http://localhost:8080/registered/Docterschedule.jsp"
+			class="w3-button w3-black w3-padding-large w3-large w3-margin-top">預約</a>
+	</header>
+    <img src="https://ppt.cc/fJx9Mx@.png" alt="Trulli" width="" height="333">
+>>>>>>> Stashed changes
 
 	<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
 		<h1 class="w3-margin w3-xlarge">掛號辦法</h1>

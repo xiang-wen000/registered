@@ -4,8 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<<<<<<< Updated upstream
 <iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="100px" frameborder="0" scrolling="no">
 </iframe>
+=======
+<title>Inquire</title>
+>>>>>>> Stashed changes
 </head>
 
 <body>
