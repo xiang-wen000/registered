@@ -21,7 +21,7 @@
   <label for="女性">女性</label>
 
 <p></p>
-  <span style="color:red">*</span>電話
+  <span style="color:red">*</span>手機電話
   <input type="text" id="phone" name="phone">
 
 <p></p>
