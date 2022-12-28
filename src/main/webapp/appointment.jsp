@@ -47,6 +47,7 @@
         </td>
 </tr>
 
+<a href="http://localhost:8080/registered/appointment.jsp">確認</a>
 <a href="http://localhost:8080/registered/appointment.jsp">重新填寫</a>
 
 
