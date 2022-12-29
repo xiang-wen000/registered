@@ -40,10 +40,10 @@ body, h1, h2, h3, h4, h5, h6 {
 		<div class="w3-bar w3-white w3-card w3-left-align w3-large">
  
 
- <a href="http://localhost:8080/registered/index.jsp"target="_blank"class="w3-bar-item w3-button w3-padding-large w3-white">首頁</a>
- <a href="http://localhost:8080/registered/Docterschedule.jsp"target="_blank"class="w3-bar-item w3-button w3-padding-large w3-white">預約看診</a>
- <a href="http://localhost:8080/registered/Inquire.jsp"target="_blank"class="w3-bar-item w3-button w3-padding-large w3-white">查詢/取消預約掛號</a>
- <a href="http://localhost:8080/registered/PatientManagement.jsp"target="_blank"class="w3-bar-item w3-button w3-padding-large w3-white">管理者</a>
+ <a href="http://localhost:8080/registered/PatientManagement.jsp"target="_blank"class="w3-bar-item w3-button w3-padding-large w3-white">病患管理</a>
+ <a href="http://localhost:8080/registered/SchedulingManagement.jsp"target="_blank"class="w3-bar-item w3-button w3-padding-large w3-white">醫師班表</a>
+ <a href="http://localhost:8080/registered/MailManagement.jsp"target="_blank"class="w3-bar-item w3-button w3-padding-large w3-white">郵件管理</a>
+ 
 		
      </div>
 

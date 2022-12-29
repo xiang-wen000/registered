@@ -7,6 +7,8 @@
 <title>Insert title here</title>
 </head>
 <body>
+<iframe src="http://localhost:8080/registered/home1.jsp" width="1500px" height="100px" frameborder="0" scrolling="no">
+</iframe>
 <style type='text/css'>
 .SchedulingTable {width:100%; margin:0 auto;border-collapse:collapse; border:solid 1px #ddd;}
 .SchedulingTable th {font-size:15px;background-color:#ECF5FF;padding:5px;text-align:center;border:solid 1px #ddd;color:	#000000;}
