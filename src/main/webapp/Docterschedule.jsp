@@ -25,8 +25,8 @@ tr:nth-child(even) {
 </head>
 <body>
 <table style="width:300%; border:none;">
-<tr>
 
+<tr>
 <div id="ctl00_ContentPlaceHolder1_RegCal_PL_App">
 </div>
 </tr>
@@ -41,12 +41,8 @@ tr:nth-child(even) {
 <div style="font-size:12px; color:#afeeee; text-align:center; line-height:20px; margin-bottom:10px;">
 
 </div>
-
-
-
 <div class="Tcenter RedMsg"></div>
 <div class="Tcenter RedMsg" style="font-size:20px;">
-
 </div>          
 <table class="RegTable">
 <style>
