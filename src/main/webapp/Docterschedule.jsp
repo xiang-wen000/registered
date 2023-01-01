@@ -108,9 +108,9 @@
 					document.write("<tr>");
 					
 					document.write("<td>" + year2 + "/" + m + "/" + j + "</td>");
-					document.write("<td>"+"<a href = http://localhost:8080/registered/appointment.jsp>찶찯롭</a>"+"</td>");
-					document.write("<td>"+"<a href = http://localhost:8080/registered/appointment.jsp>찶찯롭</a>"+"</td>");
-					document.write("<td>"+"<a href = http://localhost:8080/registered/appointment.jsp>찶찯롭</a>"+"</td>");	
+					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>찶찯롭</a>"+"</td>");
+					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>찶찯롭</a>"+"</td>");
+					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>찶찯롭</a>"+"</td>");	
 					
 				}
 				if(j > day)
