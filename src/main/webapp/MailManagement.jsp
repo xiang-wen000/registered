@@ -19,7 +19,23 @@ table, th, td {
 <iframe src="http://localhost:8080/registered/home1.jsp" width="1500px" height="100px" frameborder="0" scrolling="no">
 </iframe>
 <h1>郵件管理</h1>
+<style>
+		table {
+		  font-family: arial, sans-serif;
+		  border-collapse: collapse;
+		  width: 100%;
+		}
 
+		td, th {
+		  border: 1px solid #D2E9FF  ;
+		  text-align: CENTER;
+		  padding: 7px;
+		}
+
+		tr:nth-child(even) {
+		  background-color: #D2E9FF ;
+		}
+	</style>
 <table>
   <tr>
     <th>身分證</th>
