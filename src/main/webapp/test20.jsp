@@ -9,17 +9,30 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
 <title>Insert title here</title>
+<style>
+.btn-color {
+        color:#FFE4CA
+        font-size:20px;
+        background-color:#FFE4CA;
+    }
+
+
+</style>
 </head>
 <iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="100px" frameborder="0" scrolling="no">
 </iframe>
 <table  cellpadding="10" border = "0">
 
-  <div class="Mtitle">網路掛號</div>
+	<img src="S__42582019.jpg"  width="690" height="350">
 
-  <colgroup span="1" style="background-color:aliceblue;"></colgroup>
-  <colgroup style="background-color:#FFECEC	;"></colgroup>
-  <td colspan=4>2022/12/16 星期五 早上 8:30~12:00</td>
+	
+
+	
+    <colgroup span="1" style="background-color:aliceblue;"></colgroup>
+    <colgroup style="background-color:#FFECEC	;"></colgroup>
+    <td colspan=4>2022/12/16 星期五 早上 8:30~12:00</td>
   
+	</tr>
 	<tr>
 	  <td align='center' valign="middle">看診醫師</td>
 	  <td align='center' valign="middle">已掛號人次</td>
@@ -89,8 +102,8 @@
 		</form>
 	</div>
 
-	<br>&emsp;<a class="btn btn-primary" href="http://localhost:8080/registered/appointment.jsp">確認</a>
-			  <a class="btn btn-primary" href="http://localhost:8080/registered/appointment.jsp">重新填寫</a>
+	<br>&emsp;<a class="btn btn-color" href="http://localhost:8080/registered/AppointmentSuccess.jsp">確認</a>
+			  <a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
 
 			<td colspan="3" style="text-align: center; height: 50px;">
 			<div class="RedMsg">
