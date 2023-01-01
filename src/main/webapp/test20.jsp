@@ -11,9 +11,9 @@
 <title>Insert title here</title>
 <style>
 .btn-color {
-        color:#FFE4CA
+        color:#FFECEC
         font-size:20px;
-        background-color:#FFE4CA;
+        background-color:#FFECEC;
     }
 
 
