@@ -40,14 +40,13 @@
     <option value="1">事假</option>
     <option value="2">外出看診</option>
     <option value="3">出國</option>
-<<<<<<< Updated upstream
-  </select><tr></td>
- <tr><td><input type="submit"></table></tr>
-
-=======
   </select>
-  <input type="submit">
-</table>
->>>>>>> Stashed changes
+
+<input type="submit">
+
+
+
+ 
+
 </body>
 </html>
