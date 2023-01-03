@@ -10,7 +10,7 @@
 <head>
 <style>
 body {
-  font-size: 28px;
+  font-size: 20px;
 }
 
 ul {
@@ -55,24 +55,7 @@ li a:hover {
   <li><a href="http://localhost:8080/registered/Inquire.jsp">查詢/取消掛號</a></li>
   <li><a href="http://localhost:8080/registered/signUp.html">管理者</a></li>
 </ul>
-
-
-<!-- Navbar -->
-	<div class="w3-top">
-		
-
- <a href="http://localhost:8080/registered/index.jsp"target="_parent"class="w3-bar-item w3-button w3-padding-large w3-white">首頁</a>
- <a href="http://localhost:8080/registered/Docterschedule.jsp"target="_parent"class="w3-bar-item w3-button w3-padding-large w3-white">預約看診</a>
- <a href="http://localhost:8080/registered/Inquire.jsp"target="_parent"class="w3-bar-item w3-button w3-padding-large w3-white">查詢/取消預約掛號</a>
- <a href="http://localhost:8080/registered/signUp.html"target="_parent"class="w3-bar-item w3-button w3-padding-large w3-white">管理者</a>
-		
-     </div>
-
-
-
-
-
-
 </head>
+
 </body>
 </html>
