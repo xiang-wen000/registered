@@ -19,7 +19,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #FFFFFF;
-  position: -webkit-sticky; /* Safari */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -50,10 +50,10 @@ li a:hover {
 
 
 <ul>
-  <li><a class="active" href="#home">首頁</a></li>
-  <li><a href="#news">預約看診</a></li>
-  <li><a href="#contact">查詢/取消掛號</a></li>
-  <li><a href="#contact">管理者</a></li>
+  <li><a class="active" href="http://localhost:8080/registered/index.jsp">首頁</a></li>
+  <li><a href="http://localhost:8080/registered/Docterschedule.jsp">預約看診</a></li>
+  <li><a href="http://localhost:8080/registered/Inquire.jsp">查詢/取消掛號</a></li>
+  <li><a href="http://localhost:8080/registered/signUp.html">管理者</a></li>
 </ul>
 
 
