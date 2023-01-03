@@ -2,14 +2,10 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>SchedulingManagement</title>
-</head>
 <body>
 <iframe src="http://localhost:8080/registered/home1.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
 </iframe>
-
+<h1>醫師班表</h1>
 <style>
 		table {
 		  font-family: arial, sans-serif;
@@ -24,7 +20,6 @@
 		}
 	</style>
 <table>
-
  <tr>
     <td>休假日期:
     <input type="date" name="bday" /></td>
@@ -43,12 +38,10 @@
     <option value="2">外出看診</option>
     <option value="3">出國</option>
   </select>
-
+</table>
 <input type="submit">
-
-
-
- 
 
 </body>
 </html>
+
+    
