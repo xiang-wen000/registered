@@ -47,16 +47,16 @@ table, th, td {
   <tr>
     <td>1</td>
     <td>黃小明</td>
-   <td><input type="checkbox" value="1" name="是"><input type="checkbox" value="2" name="否"></td>
-    <td><input type="checkbox" value="1" name="是"><input type="checkbox" value="2" name="否"></td>
-    <td><input type="checkbox" value="1" name="是"><input type="checkbox" value="2" name="否"></td>
+   <td><input type="checkbox" value="YES" name="YES">是<input type="checkbox" value="NO" name="NO">否</td>
+    <td><input type="checkbox" value="YES" name="YES">是<input type="checkbox" value="NO" name="NO">否</td>
+    <td><input type="checkbox" value="YES" name="YES">是<input type="checkbox" value="NO" name="NO">否</td>
   </tr>
   <tr>
     <td>2</td>
     <td>陳一訓</td>
-    <td><input type="checkbox" value="1" name="是"><input type="checkbox" value="2" name="否"></td>
-    <td><input type="checkbox" value="1" name="是"><input type="checkbox" value="2" name="否"></td>
-    <td><input type="checkbox" value="1" name="是"><input type="checkbox" value="2" name="否"></td>
+    <td><input type="checkbox" value="YES" name="YES">是<input type="checkbox" value="NO" name="NO">否</td>
+    <td><input type="checkbox" value="YES" name="YES">是<input type="checkbox" value="NO" name="NO">否</td>
+    <td><input type="checkbox" value="YES" name="YES">是<input type="checkbox" value="NO" name="NO">否</td>
   </tr>
 </table>
   
