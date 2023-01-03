@@ -28,8 +28,13 @@ body, h1, h2, h3, h4, h5, h6 {
 </style>
 </head>
 <body>
+
 <iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
 </iframe>
+
+
+</body>
+</html>
 	
 	<!-- Header -->
 	
