@@ -15,7 +15,7 @@
 <body>
 <style>
 .FullTable {width:100%; margin:0 auto;border-collapse:collapse; border:solid 1px #ddd;}
-.FullTable th {font-size:15px;background-color:#eee;padding:5px;text-align:center;border:solid 1px #ddd;color:#000;}
+.FullTable th {font-size:15px;background-color:	#D2E9FF;padding:5px;text-align:center;border:solid 1px #D2E9FF;color:#000;}
 .FullTable tr {font-size:15px;width:auto;border:solid 1px #ddd;}
 .FullTable td {padding:5px;text-align:left;border:solid 1px #ddd; }
 </style>
@@ -25,7 +25,7 @@
 </style>
 <style type='text/css'>
 .CancelTable {width:100%; margin:0 auto;border-collapse:collapse; border:solid 1px #ddd;}
-.CancelTable th {font-size:15px;background-color:#ECF5FF;padding:5px;text-align:center;border:solid 1px #ddd;color:	#000000;}
+.CancelTable th {font-size:15px;background-color:#ECFFFF;padding:5px;text-align:center;border:solid 1px #ddd;color:	#000000;}
 .CancelTable td {padding:5px;text-align:center;border:solid 1px #ddd; color:	#000000; font-size:15px;}
 </style>
 
@@ -41,7 +41,7 @@
 <tr>
 <th>身份證字號</th>
 <td><input name="ctl00$ContentPlaceHolder1$TB_ID" type="text" value="" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" />
-<div style="font-size:70%;color:red;">請輸入身份證字號</div>
+<div style="font-size:80%;color:red;">請輸入身份證字號</div>
 </td>
 </tr>
 <tr><td colspan="2" style="text-align:center;height:50px;">
