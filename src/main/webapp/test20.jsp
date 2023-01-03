@@ -23,11 +23,10 @@
 </iframe>
 <table  cellpadding="10" border = "0">
 
-	<div class="Mtitle">網路掛號</div>
 
-	
+	<img src="B9E1253C-1FE6-44ED-BE0A-6E499F4DEF28.jpg" width="1200" height="300">
 
-	
+	<p></p>
     <colgroup span="1" style="background-color:aliceblue;"></colgroup>
     <colgroup style="background-color:#FFECEC	;"></colgroup>
     <td colspan=4>2022/12/16 星期五 早上 8:30~12:00</td>
@@ -93,11 +92,7 @@
 				<input name="ctl00$ContentPlaceHolder1$TB_ID" type="text"  maxlength="10" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" /><br><br>
 				&emsp;
 				<span style="color:red">*</span> &ensp;姓名 &emsp;&emsp;&emsp;&emsp;
-				<input type="text" id="name" name="name"><br><br>
-				&emsp;
-				<span style="color:red">*</span>  &ensp;生日 &emsp;&emsp;&emsp;&emsp;
-				<input type="text" id="birth" name="birth">
-				<input type="button" onclick="formReset()" value="重新輸入">
+				<input type="text" id="name" name="name">
 			</p>
 		</form>
 	</div>
