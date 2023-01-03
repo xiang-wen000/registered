@@ -4,11 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>SchedulingManagement</title>
 </head>
 <body>
 <iframe src="http://localhost:8080/registered/home1.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
 </iframe>
+
 <style>
 		table {
 		  font-family: arial, sans-serif;
@@ -23,6 +24,7 @@
 		}
 	</style>
 <table>
+
  <tr>
     <td>休假日期:
     <input type="date" name="bday" /></td>
