@@ -39,7 +39,7 @@
 <span id="Cancel" style="display:inline-block;width:100%;"><span>
 <table class="FullTable">
 <tr>
-<th>身份字號</th>
+<th>身份證字號</th>
 <td><input name="ctl00$ContentPlaceHolder1$TB_ID" type="text" value="" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" />
 <div style="font-size:70%;color:red;">請輸入身份證字號</div>
 </td>
