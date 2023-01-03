@@ -19,7 +19,7 @@
 
 </style>
 </head>
-<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="100px" frameborder="0" scrolling="no">
+<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
 </iframe>
 <table  cellpadding="10" border = "0">
 
