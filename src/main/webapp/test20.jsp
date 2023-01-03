@@ -19,19 +19,27 @@
 
 </style>
 </head>
+
+
+
+
+
+
+
+
 <iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
 </iframe>
+
 <table  cellpadding="10" border = "0">
 
 
-	<img src="B9E1253C-1FE6-44ED-BE0A-6E499F4DEF28.jpg" width="1200" height="300">
+	<img src="B9E1253C-1FE6-44ED-BE0A-6E499F4DEF28.jpg" width="1200" height="200">
 
 	<p></p>
     <colgroup span="1" style="background-color:aliceblue;"></colgroup>
     <colgroup style="background-color:#FFECEC	;"></colgroup>
     <td colspan=4>2022/12/16 星期五 早上 8:30~12:00</td>
   
-	</tr>
 	<tr>
 	  <td align='center' valign="middle">看診醫師</td>
 	  <td align='center' valign="middle">已掛號人次</td>
@@ -39,7 +47,7 @@
 	<tr>
 	  <td align='center' valign="middle">林東照醫師</td>
 	  <td align='center' valign="middle">0</td>
-	</tr>
+	</tr>  
 </table>
 <body>     
 	<br>
