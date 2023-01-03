@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 
-<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="100px" frameborder="0" scrolling="no">
+<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
 </iframe>
 
 <title>Inquire</title>
@@ -30,14 +30,6 @@
 <div style="font-size:70%;color:red;">請輸入身份證字號</div>
 </td>
 </tr>
-
-<tr>
-<th>生日</th>
-<td><input name="ctl00$ContentPlaceHolder1$TB_Birthday" type="text" value="" size="5" id="ctl00_ContentPlaceHolder1_TB_Birthday" class="Edit" />
-<div style="font-size:70%;color:red;">(例：5月6日，請填入0506)</div>
-</td>
-</tr>
-
 <tr><td colspan="2" style="text-align:center;height:50px;">
 <a id="ctl00_ContentPlaceHolder1_LB_Search" class="Btn_Green" href="http://localhost:8080/registered/Cancel.jsp">查詢</a>
 </td></tr>
