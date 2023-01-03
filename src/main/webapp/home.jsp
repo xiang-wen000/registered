@@ -43,7 +43,7 @@ body, h1, h2, h3, h4, h5, h6 {
  <a href="http://localhost:8080/registered/index.jsp"target="_parent"class="w3-bar-item w3-button w3-padding-large w3-white">首頁</a>
  <a href="http://localhost:8080/registered/Docterschedule.jsp"target="_parent"class="w3-bar-item w3-button w3-padding-large w3-white">預約看診</a>
  <a href="http://localhost:8080/registered/Inquire.jsp"target="_parent"class="w3-bar-item w3-button w3-padding-large w3-white">查詢/取消預約掛號</a>
- <a href="http://localhost:8080/registered/singUp.html"target="_parent"class="w3-bar-item w3-button w3-padding-large w3-white">管理者</a>
+ <a href="http://localhost:8080/registered/signUp.html"target="_parent"class="w3-bar-item w3-button w3-padding-large w3-white">管理者</a>
 		
      </div>
 
