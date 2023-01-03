@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<iframe src="http://localhost:8080/registered/home1.jsp" width="1500px" height="100px" frameborder="0" scrolling="no">
+<iframe src="http://localhost:8080/registered/home1.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
 </iframe>
 <style>
 		table {
