@@ -23,7 +23,7 @@
 <table class="CancelTable">
 <tr>
 <div class="Line"></div>
-<span id="ctl00_ContentPlaceHolder1_DL_List" style="display:inline-block;width:100%;"><span>
+<span id="Cancel" style="display:inline-block;width:100%;"><span>
 
 <table class="CancelTable">
 <tr>

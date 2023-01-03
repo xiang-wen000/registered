@@ -59,6 +59,7 @@ table, th, td {
     <td><input type="checkbox" value="YES" name="YES">是<input type="checkbox" value="NO" name="NO">否</td>
   </tr>
 </table>
+<input type="submit">
   
 </body>
 </html>

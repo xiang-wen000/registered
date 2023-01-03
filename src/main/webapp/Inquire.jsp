@@ -23,6 +23,20 @@
 .Btn_Green { display:inline-block; font-size:15px; background-color:#5da82b; color:#fff; margin:2px; padding:5px 15px;text-decoration:none; border-radius:6px;}
 .Btn_Green:hover { background-color:#3c7714; color:#fff;text-decoration:none;}
 </style>
+<style type='text/css'>
+.CancelTable {width:100%; margin:0 auto;border-collapse:collapse; border:solid 1px #ddd;}
+.CancelTable th {font-size:15px;background-color:#ECF5FF;padding:5px;text-align:center;border:solid 1px #ddd;color:	#000000;}
+.CancelTable td {padding:5px;text-align:center;border:solid 1px #ddd; color:	#000000; font-size:15px;}
+</style>
+
+<style type='text/css'>
+.Btn_Red { display:inline-block; font-size:15px; background-color:#f33d2c; color:#fff; margin:2px; padding:5px 15px;text-decoration:none; border-radius:6px;}
+.Btn_Red:hover { background-color:#c12618; color:#fff;text-decoration:none;}
+</style>
+<table class="CancelTable">
+<tr>
+<div class="Line"></div>
+<span id="Cancel" style="display:inline-block;width:100%;"><span>
 <table class="FullTable">
 <tr>
 <th>身份字號</th>
@@ -32,12 +46,7 @@
 </tr>
 <tr><td colspan="2" style="text-align:center;height:50px;">
 <a id="ctl00_ContentPlaceHolder1_LB_Search" class="Btn_Green" href="http://localhost:8080/registered/Cancel.jsp">查詢</a>
-</td></tr>
-</table>
-</div></div>
-</td>
-</tr>
-</table>
-</div>
+<a href="http://localhost:8080/registered/Cancel.jsp" onclick="handler()" >Link</a>
+
 </body>
 </html>
