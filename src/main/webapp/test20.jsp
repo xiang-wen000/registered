@@ -20,8 +20,10 @@
 </style>
 </head>
 
-<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
-</iframe>
+<%@ include file="test.jsp" %>
+
+<!--<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">-->
+
 
 <table  cellpadding="10" border = "0">
 
@@ -69,18 +71,23 @@
 				<input name="ctl00$ContentPlaceHolder1$TB_ID" type="text"  maxlength="10" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" /><br><br>
 				&emsp;
 				<span style="color:red">*</span> &ensp;姓名 &emsp;&emsp;&emsp;&emsp;
-				<input type="text" id="name" name="name"><br><br>
+				<input type="text" id="Name" name="Name"><br><br>
 				&emsp;
 				<span style="color:red">*</span> &ensp;性別 &emsp;&emsp;&emsp;&emsp;
-				<input type="radio" id="男性" name="your gender" value="男性">
+				<input type="radio" id="Gender" name="Gender" value="男性">
 			    <label for="男性">男性 &nbsp;</label>
 				&nbsp;
-				<input type="radio" id="女性" name="your gender" value="女性">
+				<input type="radio" id="Gender" name="Gender" value="女性">
 			    <label for="女性">女性</label><br><br>
-				&nbsp;
+				&emsp;
+				<span style="color:red">*</span> &ensp;郵件 &emsp;&emsp;&emsp;
+				<input type="text" id="Email" name="Email"><br><br>
+				&emsp;
 				<span style="color:red">*</span> &ensp;手機電話 &emsp;&emsp;&nbsp;
-				<input type="text" id="phone" name="phone">
+				<input type="text" id="MobilPhone" name="MobilPhone">
 				<input type="button" onclick="formReset()" value="重新輸入">
+				
+				
 			</p>
 		</form>
 	</div>

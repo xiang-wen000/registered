@@ -5,14 +5,16 @@
 <head>
 <meta charset="UTF-8">
 
-<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
-</iframe>
+
 
 <title>Inquire</title>
 
 </head>
 
 <body>
+
+<%@ include file="test.jsp" %>
+
 <style>
 .FullTable {width:100%; margin:0 auto;border-collapse:collapse; border:solid 1px #ddd;}
 .FullTable th {font-size:15px;background-color:	#D2E9FF;padding:5px;text-align:center;border:solid 1px #D2E9FF;color:#000;}

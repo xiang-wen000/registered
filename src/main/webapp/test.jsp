@@ -9,6 +9,14 @@
 
 <head>
 <style>
+body, h1, h2, h3, h4, h5, h6 {
+   font-family: "Lato", sans-serif
+}
+
+.w3-bar, h1, button {
+   font-family: "Montserrat", sans-serif
+}
+
 body {
   font-size: 20px;
 }
@@ -48,13 +56,15 @@ li a:hover {
 <body>
 
 
-
 <ul>
+  
   <li><a class="active" href="http://localhost:8080/registered/index.jsp">首頁</a></li>
   <li><a href="http://localhost:8080/registered/Docterschedule.jsp">預約看診</a></li>
   <li><a href="http://localhost:8080/registered/Inquire.jsp">查詢/取消掛號</a></li>
   <li><a href="http://localhost:8080/registered/signUp.html">管理者</a></li>
+  
 </ul>
+
 </head>
 
 </body>
