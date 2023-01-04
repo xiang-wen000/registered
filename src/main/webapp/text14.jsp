@@ -24,14 +24,25 @@
 	while(rs.next()){%>
 	<tr>
 	<td><input type="checkbox" value="1" name="ID"></td>
-	
 		 <td><%=rs.getString("Appointmentid")%></td>
-		  <td><%=rs.getString("ID")%></td>
-		 <td><%=rs.getString("DeliveryStatus")%></td>	 
+		 <td><%=rs.getString("ID")%></td>
 	</tr>
 	<%}	
 	con.close();
 	%>
+
+
+	<%
+	Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+		Connection con=DriverManager.getConnection(
+		"jdbc:ucanaccess://D:\\Java\\Access\\dataBase.accdb;");
+	Statement smt= con.createStatement();
+	out.println("Email");
+	smt.executeUpdate("INSERT INTO Email(DeliveryStatus) VALUES('');");
 	
+	con.close();
+	%>
+
+</html>
 </body>
 </html>
