@@ -42,7 +42,7 @@
 <table class="FullTable">
 <tr>
 <th>身份證字號</th>
-<td><input name="ctl00$ContentPlaceHolder1$TB_ID" type="text" value="" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" />
+<td><input type name="ctl00$ContentPlaceHolder1$TB_ID" type="text" value="" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" required>
 <div style="font-size:80%;color:red;">請輸入身份證字號</div>
 </td>
 </tr>
