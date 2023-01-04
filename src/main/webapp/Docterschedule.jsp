@@ -1,10 +1,8 @@
-<%@ page language="java" contentType="text/html; charset=BIG5"
-    pageEncoding="BIG5"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-	<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
-	</iframe>
 	<style>
 		table {
 		  font-family: arial, sans-serif;
@@ -25,6 +23,7 @@
 </head>
 
 <body>
+<%@ include file="test.jsp" %>
 	<table style="width:300%; border:none;">
 	<tr>
 
@@ -51,7 +50,7 @@
 	</div>          
 	<table class="RegTable">
 	<style>
-	a:link, a:visited {
+	tr a:link, tr a:visited {
 	  background-color:#ECF5FF;
 	  border: 2px solid #C4E1FF;
 	  color: black;
@@ -65,10 +64,10 @@
 	</style>
 
 	<tr>
-	<th>¤é´Á</th>
-	<th>¤W¤È(08:30~12:00)</th>
-	<th>¤U¤È(15:00~18:00)</th>
-	<th>±ß¤W(18:30~20:30)</th>
+	<th>æ—¥æœŸ</th>
+	<th>ä¸Šåˆ(08:30~12:00)</th>
+	<th>ä¸‹åˆ(15:00~18:00)</th>
+	<th>æ™šä¸Š(18:30~20:30)</th>
 	</tr>
 
 	<script>
@@ -108,9 +107,9 @@
 					document.write("<tr>");
 					
 					document.write("<td>" + year2 + "/" + m + "/" + j + "</td>");
-					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>ªLªF·Ó</a>"+"</td>");
-					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>ªLªF·Ó</a>"+"</td>");
-					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>ªLªF·Ó</a>"+"</td>");	
+					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>æ—æ±ç…§</a>"+"</td>");
+					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>æ—æ±ç…§</a>"+"</td>");
+					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>æ—æ±ç…§</a>"+"</td>");	
 					
 				}
 				if(j > day)
