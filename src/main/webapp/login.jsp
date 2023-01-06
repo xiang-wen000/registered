@@ -37,8 +37,8 @@ input[type=text], input[type=password] {
 }
 
 button {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #ABFFFF;
+  color: black;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -61,16 +61,16 @@ span.memberpwd {
 
 </style>
 <body>
-<h2>Login Form</h2>
+<h2>µn¤J</h2>
 <form method="post">
 <div class="container">
-	<label for="managerID"><b>managerID</b></label>
+	<label for="managerID"><b>±b¸¹</b></label>
     <input type="text" placeholder="Enter Username" name="managerID" required>
 
-    <label for="managerPwd"><b>Password</b></label>
+    <label for="managerPwd"><b>±K½X</b></label>
     <input type="password" placeholder="Enter Password" name="managerPwd" required>
         
-    <button type="submit" name="loginButton">Login</button>
+    <button type="submit" name="loginButton">µn¤J</button>
 </div>
 </form>
 </body>
