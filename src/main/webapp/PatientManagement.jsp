@@ -39,13 +39,14 @@
 	<%
 	while(rs.next()){%>
 	<tr>
-	<td><input type="checkbox" value="1" name="ID"></td>
+	<td><input type="checkbox"  name="userid"></td>
 		 <td><%=rs.getString("ID")%></td>
 		 <td><%=rs.getString("Name")%></td>	 
 	</tr>
 	<%}	
 	con.close();
 	%>
+	
 	<a onclick="return&#32;confirm(&#39;是否確定取消此掛號?&#39;);" id="cancel register" class="Btn_Red" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$DL_List$ctl00$LB_DEL&#39;,&#39;&#39;)">取消掛號</a>
 </body>
 </html>
