@@ -1,55 +1,77 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<%@page contentType="text/html"%>
+<%@page pageEncoding="BIG5"%>
+<%@page import="java.sql.*"%>
+
+<%
+ if(request.getParameter("ID") !=null &&
+	request.getParameter("ID") !=null){
+        Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+	Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\User\\Documents\\GitHub\\registered\\src\\main\\webapp\\Data.accdb;");
+	Statement smt= con.createStatement
+			(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
+	String getpaperdata = "SELECT * FROM Patient WHERE ID='"+
+			request.getParameter("ID")+"' AND ID='" +
+			request.getParameter("ID")+"'";
+	ResultSet paperrs = smt.executeQuery(getpaperdata);
+	if(paperrs.next()){
+		response.sendRedirect("Cancel.jsp");
+	}else
+		out.println("¨­¤ÀÃÒ¦r¸¹¤£²Å¡I½Ð­«·sµn¤J");
+}
+%>
 <html>
-<head>
-<meta charset="UTF-8">
+<head><title>µn¤J­¶­±</title></head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ¦¹style°Ñ¦Ò¦Ûwww.w3schools.com -->
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid #f1f1f1;}
 
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
 
+button {
+  background-color: #ABFFFF;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
 
-<title>Inquire</title>
+button:hover {
+  opacity: 0.8;
+}
 
-</head>
+.container {
+  padding: 16px;
+}
 
+span.memberpwd {
+  float: right;
+  padding-top: 16px;
+}
+
+</style>
 <body>
+<h2>¬d¸ß¹w¬ù</h2>
+<form method="post">
+<div class="container">
+	<label for="ID"><b>¨­¤ÀÃÒ¦r¸¹</b></label>
+    <input type="text" placeholder="YourID" name="ID" required>
 
-<%@ include file="test.jsp" %>
-
-<style>
-.FullTable {width:100%; margin:0 auto;border-collapse:collapse; border:solid 1px #ddd;}
-.FullTable th {font-size:15px;background-color:	#D2E9FF;padding:5px;text-align:center;border:solid 1px #D2E9FF;color:#000;}
-.FullTable tr {font-size:15px;width:auto;border:solid 1px #ddd;}
-.FullTable td {padding:5px;text-align:left;border:solid 1px #ddd; }
-</style>
-<style>
-.Btn_Green { display:inline-block; font-size:15px; background-color:#5da82b; color:#fff; margin:2px; padding:5px 15px;text-decoration:none; border-radius:6px;}
-.Btn_Green:hover { background-color:#3c7714; color:#fff;text-decoration:none;}
-</style>
-<style type='text/css'>
-.CancelTable {width:100%; margin:0 auto;border-collapse:collapse; border:solid 1px #ddd;}
-.CancelTable th {font-size:15px;background-color:#ECFFFF;padding:5px;text-align:center;border:solid 1px #ddd;color:	#000000;}
-.CancelTable td {padding:5px;text-align:center;border:solid 1px #ddd; color:	#000000; font-size:15px;}
-</style>
-
-<style type='text/css'>
-.Btn_Red { display:inline-block; font-size:15px; background-color:#f33d2c; color:#fff; margin:2px; padding:5px 15px;text-decoration:none; border-radius:6px;}
-.Btn_Red:hover { background-color:#c12618; color:#fff;text-decoration:none;}
-</style>
-<table class="CancelTable">
-<tr>
-<div class="Line"></div>
-<span id="Cancel" style="display:inline-block;width:100%;"><span>
-<table class="FullTable">
-<tr>
-<th>èº«ä»½è­‰å­—è™Ÿ</th>
-<td><input type name="ctl00$ContentPlaceHolder1$TB_ID" type="text" value="" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" required>
-<div style="font-size:80%;color:red;">è«‹è¼¸å…¥èº«ä»½è­‰å­—è™Ÿ</div>
-</td>
-</tr>
-<tr><td colspan="2" style="text-align:center;height:50px;">
-
-<a id="ctl00_ContentPlaceHolder1_LB_Search" class="Btn_Green" href="http://localhost:8080/registered/Cancel.jsp">æŸ¥è©¢</a>
-
-
+    <label for="ID"><b>¦A¦¸½T»{</b></label>
+    <input type="password" placeholder="YourID Again" name="ID" required>
+        
+    <button type="submit" name="loginButton">¬d¸ß</button>
+</div>
+</form>
 </body>
 </html>

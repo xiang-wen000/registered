@@ -8,22 +8,19 @@
 </head>
 <body>
 <%
-String NotWorkTime=request.getParameter("NotWorkTime");
-String NotWorkDate=request.getParameter("NotWorkDate");
-String Reason=request.getParameter("Reason");
-try
-{
-         Class.forName("com.mysql.jdbc.Driver");
-           Connection conn = DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\User\\Documents\\GitHub\\registered\\src\\main\\webapp\\Data.accdb;");
-           Statement st=conn.createStatement();
-           int i=st.executeUpdate("insert into  DrLeave(NotWorkTime, NotWorkDate, Reason)values('"+NotWorkTime+"','"+NotWorkDate+"','"+Reason+"')");
-        out.println("Data is successfully inserted!");
-        }
-        catch(Exception e)
-        {
-        System.out.print(e);
-        e.printStackTrace();
-        }
- %>
+
+   Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+   Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\USER\\Documents\\GitHub\\registered\\src\\main\\webapp\\Data.accdb;");
+	if(con.isClosed())
+		out.println("資料庫已經關閉!<br>");
+	else
+		out.println("資料庫正開啟中!<br>");
+	con.close();
+	
+	if(con.isClosed())
+		out.println("資料庫已經關閉!<br>");
+	else
+		out.println("資料庫正開啟中!<br>");	
+	%>
 </body>
 </html>
