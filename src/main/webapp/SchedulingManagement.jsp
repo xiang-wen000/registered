@@ -5,16 +5,6 @@
 <body>
 <iframe src="http://localhost:8080/registered/home1.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
 </iframe>
-<%
-	Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-		Connection con=DriverManager.getConnection(
-		"jdbc:ucanaccess://C:\\Users\\User\\Documents\\GitHub\\registered\\src\\main\\webapp\\Data.accdb;");
-	Statement smt= con.createStatement();
-	out.println("新增資料至stu");
-smt.executeUpdate("INSERT INTO DrLeave (NotWorkDate,NotWorkTime,reason) VALUES ('"+date+"', '"+string+"','"+string+"');");
-	
-	con.close();
-	%>
 <h1>醫師班表</h1>
 <style>
 		table {
@@ -49,8 +39,9 @@ smt.executeUpdate("INSERT INTO DrLeave (NotWorkDate,NotWorkTime,reason) VALUES (
     <option value="2">到府看診</option>
     <option value="3">事假</option>
   </select>
-  <input type="submit"
-</table>
+ 
+</table> 
+<input type="submit">
 </form>
 </body>
 </html>

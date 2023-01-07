@@ -5,7 +5,7 @@ public class DBConfig {
 	}
 	
 	public String FilePath(){
-	   //DB FilePath
+	   //wen
 		 String DBPath="C:\\Users\\User\\Documents\\GitHub\\registered\\src\\main\\webapp\\Data.accdb";
 	   return DBPath;		
 	}

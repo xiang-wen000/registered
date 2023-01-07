@@ -26,27 +26,33 @@
 	Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
 	Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\User\\Documents\\GitHub\\registered\\src\\main\\webapp\\Data.accdb;");
 	Statement smt= con.createStatement();
-	String sql = "SELECT * FROM Patient ";
-	ResultSet rs = smt.executeQuery(sql);
-	%>
-<H1>病患管理<H1>
-	<table border='1'>
-	<tr>
-	<th>勾選</th>
-	<th>身分證字號</th>
-	<th>姓名</th>
-	</tr>
-	<%
-	while(rs.next()){%>
-	<tr>
-	<td><input type="checkbox"  name="userid"></td>
-		 <td><%=rs.getString("ID")%></td>
-		 <td><%=rs.getString("Name")%></td>	 
-	</tr>
-	<%}	
+	out.println("新增資料至person");
+	smt.executeUpdate("INSERT INTO DrLeave(NotWorkTime,NotWorkDate,Reason) VALUES('早上', '2022/02/06','出國');");
+	
 	con.close();
 	%>
-	
-	<a onclick="return&#32;confirm(&#39;是否確定取消此掛號?&#39;);" id="cancel register" class="Btn_Red" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$DL_List$ctl00$LB_DEL&#39;,&#39;&#39;)">取消掛號</a>
+<H1>病患管理<H1>
+<table>
+ <tr>
+    <td>休假日期:
+    <input type="date" name="NotWorkDate" /></td>
+  </tr><br>
+  <tr>
+  <td><label for="NotWorkTime">休假時段:</label>
+  <select id="NotWorkTime" name="NotWorkTime">
+    <option value="1">早上</option>
+    <option value="2">下午</option>
+    <option value="3">晚上</option>
+  </select><tr></td><br>
+  <tr>
+  <td><label for="reason">休假理由:</label>
+  <select id="reason" name="reason">
+    <option value="1">出國</option>
+    <option value="2">到府看診</option>
+    <option value="3">事假</option>
+  </select>
+ 
+</table> 
+<input type="submit">
 </body>
 </html>
