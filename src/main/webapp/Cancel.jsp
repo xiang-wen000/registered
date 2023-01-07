@@ -23,7 +23,7 @@
 </style>
 <table class="CancelTable">
 <tr>
-<div class="Line"></div>
+
 <span id="Cancel" style="display:inline-block;width:100%;"><span>
 
 <table class="CancelTable">
@@ -31,7 +31,7 @@
 <th>姓名</th>
 <td>
 
-<input type="hidden" name="ctl00$ContentPlaceHolder1$DL_List$ctl00$HF_REG_IDNO" id="ctl00_ContentPlaceHolder1_DL_List_ctl00_HF_REG_IDNO" value="C221654496" />
+<input type="hidden" name="ctl00$ContentPlaceHolder1$DL_List$ctl00$HF_REG_IDNO" id="ctl00_ContentPlaceHolder1_DL_List_ctl00_HF_REG_IDNO" value="" />
 <input type="hidden" name="ctl00$ContentPlaceHolder1$DL_List$ctl00$HF_REG_CHRT" id="ctl00_ContentPlaceHolder1_DL_List_ctl00_HF_REG_CHRT" value="9999991" />
 </td>
 <th>取消</th>
@@ -52,7 +52,7 @@
 
 <tr>
 <th>看診醫師</th>
-<td>羅明原</td>
+<td>林東照</td>
 
 <th>掛號號碼</th>
 <td colspan="2" style="width:100px;">

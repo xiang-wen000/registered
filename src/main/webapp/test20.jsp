@@ -44,6 +44,7 @@
 	  <td align='center' valign="middle">0</td>
 	</tr>  
 </table>
+
 <body>     
 	<br>
 	<ul class="nav nav-radio" id="myTab">
@@ -60,24 +61,24 @@
 	</ul>
 	
 	<!-- 內容 -->
-
-	<div class="tab-content" id="myTabContent">
+<form  action="insertinto.jsp" >
+<div class="tab-content" id="myTabContent">
 	<div class="tab-pane fade" id="tab1" >
 		<form id="myForm" >
 			<p> 
 				<br>
 				&emsp;
 				<span style="color:red">*</span> &ensp;身份證字號 &emsp;
-				<input name="ctl00$ContentPlaceHolder1$TB_ID" type="text"  maxlength="10" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" /><br><br>
+				<input name="ID" type="text"  maxlength="10" size="20" id="ID" class="Edit" /><br><br>
 				&emsp;
 				<span style="color:red">*</span> &ensp;姓名 &emsp;&emsp;&emsp;&emsp;
 				<input type="text" id="Name" name="Name"><br><br>
 				&emsp;
 				<span style="color:red">*</span> &ensp;性別 &emsp;&emsp;&emsp;&emsp;
-				<input type="radio" id="Gender" name="Gender" value="男性">
+				<input type="radio" id="Gender" name="Gender" value="1">
 			    <label for="男性">男性 &nbsp;</label>
 				&nbsp;
-				<input type="radio" id="Gender" name="Gender" value="女性">
+				<input type="radio" id="Gender" name="Gender" value="2">
 			    <label for="女性">女性</label><br><br>
 				&emsp;
 				<span style="color:red">*</span> &ensp;郵件 &emsp;&emsp;&emsp;
@@ -87,31 +88,35 @@
 				<input type="text" id="MobilPhone" name="MobilPhone">
 				<input type="button" onclick="formReset()" value="重新輸入">
 				
-				
-			</p>
-		</form>
-	</div>
-	<div class="tab-pane fade" id="tab2">
-		<form id="myForm">
-			<p> 
-				<br>
-				&emsp;
-				<span style="color:red">*</span> &ensp;身份證字號 &emsp;
-				<input name="ctl00$ContentPlaceHolder1$TB_ID" type="text"  maxlength="10" size="20" id="ctl00_ContentPlaceHolder1_TB_ID" class="Edit" /><br><br>
-				&emsp;
-				<span style="color:red">*</span> &ensp;姓名 &emsp;&emsp;&emsp;&emsp;
-				<input type="text" id="name" name="name">
 			</p>
 		</form>
 	</div>
 
-	<br>&emsp;<a class="btn btn-color" href="http://localhost:8080/registered/AppointmentSuccess.jsp">確認</a>
+
+	<div class="tab-pane fade" id="tab2">
+		<form id="myForm" >
+			<p> 
+				<br>
+				&emsp;
+				<span style="color:red">*</span> &ensp;身份證字號 &emsp;
+				<input name="ID" type="text"  maxlength="10" size="20" id="ID" class="Edit" /><br><br>
+				&emsp;
+				<span style="color:red">*</span> &ensp;姓名 &emsp;&emsp;&emsp;&emsp;
+				<input type="text" id="Name" name="Name">
+			</p>
+		</form>
+	</div>
+			  <br>&emsp;<input type="Submit"  class="btn btn-color"  value="確認">
 			  <a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
+
+	
 
 			<td colspan="3" style="text-align: center; height: 50px;">
 			<div class="RedMsg">
 			</div>
 			</td>
+</div>			
+</form>	
 			
 	<script>
 		function formReset()
