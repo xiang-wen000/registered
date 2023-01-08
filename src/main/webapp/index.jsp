@@ -35,22 +35,13 @@ body, h1, h2, h3, h4, h5, h6 {
 
 <style>
 h1 {text-align: center; font-size:40px;}
-p {text-align: center;font-size:20px;}
-
+p {text-align: center; font-size:20px;}
 </style>
+<h1 class="w3-margin w3-jumbo">陳毅文診所</h1>
+<p class="w3-xlarge">網路掛號預約系統</p>
 
-
-	
-	
-	
-	
-	
-	
-		<h1 class="w3-margin w3-jumbo" >陳毅文診所</h1>
-		<p class="w3-xlarge">網路掛號預約系統</p>
-		
-	<center>
-	<img src="https://ppt.cc/fR12Jx@.png" alt="Trulli" width="500" height="350">
+<center>
+<img src="https://ppt.cc/fR12Jx@.png" alt="Trulli" width="500" height="350">
         
 
 	<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
