@@ -19,30 +19,33 @@
 		  padding: 7px;
 		}
 	</style>
-	
+<form  action="SchedulingManagement.jsp" >	
 <table>
- <tr>
-    <td>休假日期:
-    <input type="date" name="NotWorkDate" /></td>
-  </tr><br>
   <tr>
-  <td><label for="NotWorkTime">休假時段:</label>
-  <select id="NotWorkTime" name="NotWorkTime">
-    <option value="1">早上</option>
+   <td><label for="NotWorkTime">休假時段:</label>
+   <select id="NotWorkTime" name="NotWorkTime">
+    <option value="1">上午</option>
     <option value="2">下午</option>
     <option value="3">晚上</option>
-  </select><tr></td><br>
+   </select>
+   </td>
+   </tr><br>
   <tr>
-  <td><label for="reason">休假理由:</label>
-  <select id="reason" name="reason">
+    <td>休假日期:
+    <input type="text" name="NotWorkDate" /></td>
+  </tr> <br>
+  <tr>
+  <td><label for="Reason">休假理由:</label>
+  <select id="Reason" name="Reason">
     <option value="1">出國</option>
     <option value="2">到府看診</option>
     <option value="3">事假</option>
-  </select>
- 
-</table> 
-<input type="submit">
+  </select> 
+   </td>
+   </table>
+    <input type="submit" value="確認">
 </form>
+
 </body>
 </html>
 

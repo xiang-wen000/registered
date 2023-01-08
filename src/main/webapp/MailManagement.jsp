@@ -1,24 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+<%@page contentType="text/html; charset=BIG5"%>
+<%@page pageEncoding="BIG5"%>
+<%@page import="java.sql.*"%>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
+	<head><title>Select</title></head>
+	<meta charset="BIG5">
 <body>
-<table>
-  <style>
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-</style>
-</head>
-<body>
-<iframe src="http://localhost:8080/registered/home1.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
-</iframe>
-<h1>éƒµä»¶ç®¡ç†</h1>
 <style>
 		table {
 		  font-family: arial, sans-serif;
@@ -28,38 +14,43 @@ table, th, td {
 
 		td, th {
 		  border: 1px solid #D2E9FF  ;
-		  text-align: CENTER;
+		  text-align: left;
 		  padding: 7px;
 		}
-
-		tr:nth-child(even) {
-		  background-color: #D2E9FF ;
-		}
 	</style>
-<table>
-  <tr>
-    <th>èº«åˆ†è­‰</th>
-    <th>å§“å</th>
-    <th>Sent1</th>
-    <th>Sent2</th>
-    <th>Sent3</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>é»ƒå°æ˜</td>
-   <td><input type="checkbox" value="YES" name="YES">æ˜¯<input type="checkbox" value="NO" name="NO">å¦</td>
-    <td><input type="checkbox" value="YES" name="YES">æ˜¯<input type="checkbox" value="NO" name="NO">å¦</td>
-    <td><input type="checkbox" value="YES" name="YES">æ˜¯<input type="checkbox" value="NO" name="NO">å¦</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>é™³ä¸€è¨“</td>
-    <td><input type="checkbox" value="YES" name="YES">æ˜¯<input type="checkbox" value="NO" name="NO">å¦</td>
-    <td><input type="checkbox" value="YES" name="YES">æ˜¯<input type="checkbox" value="NO" name="NO">å¦</td>
-    <td><input type="checkbox" value="YES" name="YES">æ˜¯<input type="checkbox" value="NO" name="NO">å¦</td>
-  </tr>
-</table>
-<input type="submit">
-  
+<style type='text/css'>
+.Btn_Red { display:inline-block; font-size:15px; background-color:#f33d2c; color:#fff; margin:2px; padding:5px 15px;text-decoration:none; border-radius:6px;}
+.Btn_Red:hover { background-color:#c12618; color:#fff;text-decoration:none;}
+</style>
+	<%
+	Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
+	Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\User\\Documents\\GitHub\\registered\\src\\main\\webapp\\Data.accdb;");
+	Statement smt= con.createStatement();
+	String sql = "SELECT * FROM Email & Appointment ";
+	ResultSet rs = smt.executeQuery(sql);
+	%>
+
+   <H1>¯f±wºŞ²z<H1>
+	 <table border='1'>
+	 <tr>
+	 <th>¨­¤ÀÃÒ¦r¸¹</th>
+	 <th>©m¦W</th>
+	 <th>¤w¶Ç°e</th>
+     <th>¥¼¶Ç°e</th>
+	 </tr>
+	
+	<%
+	while(rs.next()){%>
+	<tr>
+	
+    <td><%=rs.getString("Appointmentid")%></td>
+    <td><%=rs.getString("ID")%></td>	 
+    <td> <input type="checkbox" value="1"></td>
+    <td> <input type="checkbox" value="2"></td>
+	</tr>
+	<%}	
+	con.close();
+	%>
+ </form>	
 </body>
 </html>

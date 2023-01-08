@@ -29,24 +29,24 @@
 	String sql = "SELECT * FROM Patient ";
 	ResultSet rs = smt.executeQuery(sql);
 	%>
-<H1>病患管理<H1>
-	<table border='1'>
-	<tr>
-	<th>勾選</th>
-	<th>身分證字號</th>
-	<th>姓名</th>
-	</tr>
+<form  action="insertintoPat.jsp" >
+   <H1>病患管理<H1>
+	 <table border='1'>
+	 <tr>
+	 <th>刪除</th>
+	 <th>身分證字號</th>
+	 <th>姓名</th>
+	 </tr>
 	<%
 	while(rs.next()){%>
 	<tr>
-	<td><input type="checkbox"  name="userid"></td>
-		 <td><%=rs.getString("ID")%></td>
-		 <td><%=rs.getString("Name")%></td>	 
+	<td> <input type="Submit" value="刪除"></td>
+    <td><%=rs.getString("ID")%></td>
+    <td><%=rs.getString("Name")%></td>	 
 	</tr>
 	<%}	
 	con.close();
 	%>
-	
-	<a onclick="return&#32;confirm(&#39;是否確定取消此掛號?&#39;);" id="cancel register" class="Btn_Red" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$DL_List$ctl00$LB_DEL&#39;,&#39;&#39;)">取消掛號</a>
+ </form>	
 </body>
 </html>

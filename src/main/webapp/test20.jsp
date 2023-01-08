@@ -87,12 +87,13 @@
 				<span style="color:red">*</span> &ensp;手機電話 &emsp;&emsp;&nbsp;
 				<input type="text" id="MobilPhone" name="MobilPhone">
 				<input type="button" onclick="formReset()" value="重新輸入">
-				
+				<br>&emsp;<input type="Submit"  class="btn btn-color"  value="確認">
+			  <a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
 			</p>
 		</form>
 	</div>
-
-
+</form>	
+<form  action="Inquire_text20.jsp" >
 	<div class="tab-pane fade" id="tab2">
 		<form id="myForm" >
 			<p> 
@@ -103,20 +104,18 @@
 				&emsp;
 				<span style="color:red">*</span> &ensp;姓名 &emsp;&emsp;&emsp;&emsp;
 				<input type="text" id="Name" name="Name">
+				 <br>&emsp;<input type="Submit"  class="btn btn-color"  value="確認">
+			  <a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
 			</p>
 		</form>
 	</div>
-			  <br>&emsp;<input type="Submit"  class="btn btn-color"  value="確認">
-			  <a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
-
-	
-
+			  
 			<td colspan="3" style="text-align: center; height: 50px;">
 			<div class="RedMsg">
 			</div>
 			</td>
 </div>			
-</form>	
+</form>
 			
 	<script>
 		function formReset()

@@ -1,77 +1,65 @@
-<%@page contentType="text/html"%>
-<%@page pageEncoding="BIG5"%>
-<%@page import="java.sql.*"%>
-
-<%
- if(request.getParameter("ID") !=null &&
-	request.getParameter("ID") !=null){
-        Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-	Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\User\\Documents\\GitHub\\registered\\src\\main\\webapp\\Data.accdb;");
-	Statement smt= con.createStatement
-			(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
-	String getpaperdata = "SELECT * FROM Patient WHERE ID='"+
-			request.getParameter("ID")+"' AND ID='" +
-			request.getParameter("ID")+"'";
-	ResultSet paperrs = smt.executeQuery(getpaperdata);
-	if(paperrs.next()){
-		response.sendRedirect("Cancel.jsp");
-	}else
-		out.println("±b¸¹±K½X¤£²Å¡I½Ğ­«·sµn¤J");
-}
-%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
-<head><title>µn¤J­¶­±</title></head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- ¦¹style°Ñ¦Ò¦Ûwww.w3schools.com -->
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-form {border: 3px solid #f1f1f1;}
-
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-button {
-  background-color: #ABFFFF;
-  color: black;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-.container {
-  padding: 16px;
-}
-
-span.memberpwd {
-  float: right;
-  padding-top: 16px;
-}
-
-</style>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
 <body>
-<h2>¬d¸ß¹w¬ù</h2>
-<form method="post">
-<div class="container">
-	<label for="ID"><b>¨­¤ÀÃÒ¦r¸¹</b></label>
-    <input type="text" placeholder="YourID" name="ID" required>
+<table>
+  <style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+<iframe src="http://localhost:8080/registered/home1.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
+</iframe>
+<h1>éƒµä»¶ç®¡ç†</h1>
+<style>
+		table {
+		  font-family: arial, sans-serif;
+		  border-collapse: collapse;
+		  width: 100%;
+		}
 
-    <label for="ID"><b>¦A¦¸½T»{</b></label>
-    <input type="password" placeholder="YourID Again" name="ID" required>
-        
-    <button type="submit" name="loginButton">¬d¸ß</button>
-</div>
-</form>
+		td, th {
+		  border: 1px solid #D2E9FF  ;
+		  text-align: CENTER;
+		  padding: 7px;
+		}
+
+		tr:nth-child(even) {
+		  background-color: #D2E9FF ;
+		}
+	</style>
+<table>
+  <tr>
+    <th>èº«åˆ†è­‰</th>
+    <th>å§“å</th>
+    <th>Sent1</th>
+    <th>Sent2</th>
+    <th>Sent3</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>é»ƒå°æ˜</td>
+   <td><input type="checkbox" value="YES" name="YES">æ˜¯<input type="checkbox" value="NO" name="NO">å¦</td>
+    <td><input type="checkbox" value="YES" name="YES">æ˜¯<input type="checkbox" value="NO" name="NO">å¦</td>
+    <td><input type="checkbox" value="YES" name="YES">æ˜¯<input type="checkbox" value="NO" name="NO">å¦</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>é™³ä¸€è¨“</td>
+    <td><input type="checkbox" value="YES" name="YES">æ˜¯<input type="checkbox" value="NO" name="NO">å¦</td>
+    <td><input type="checkbox" value="YES" name="YES">æ˜¯<input type="checkbox" value="NO" name="NO">å¦</td>
+    <td><input type="checkbox" value="YES" name="YES">æ˜¯<input type="checkbox" value="NO" name="NO">å¦</td>
+  </tr>
+</table>
+<input type="submit">
+  
 </body>
 </html>
