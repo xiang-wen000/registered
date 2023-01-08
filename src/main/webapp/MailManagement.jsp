@@ -5,6 +5,8 @@
 	<head><title>Select</title></head>
 	<meta charset="BIG5">
 <body>
+<iframe src="http://localhost:8080/registered/home1.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
+</iframe>
 <style>
 		table {
 		  font-family: arial, sans-serif;
@@ -26,14 +28,14 @@
 	Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
 	Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\User\\Documents\\GitHub\\registered\\src\\main\\webapp\\Data.accdb;");
 	Statement smt= con.createStatement();
-	String sql = "SELECT * FROM Email & Appointment ";
+	String sql = "SELECT * FROM Email  ";
 	ResultSet rs = smt.executeQuery(sql);
 	%>
 
    <H1>病患管理<H1>
 	 <table border='1'>
 	 <tr>
-	 <th>身分證字號</th>
+	 <th>預約號</th>
 	 <th>姓名</th>
 	 <th>已傳送</th>
      <th>未傳送</th>
@@ -44,7 +46,7 @@
 	<tr>
 	
     <td><%=rs.getString("Appointmentid")%></td>
-    <td><%=rs.getString("ID")%></td>	 
+    	 
     <td> <input type="checkbox" value="1"></td>
     <td> <input type="checkbox" value="2"></td>
 	</tr>
