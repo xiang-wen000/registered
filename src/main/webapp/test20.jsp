@@ -28,7 +28,7 @@
 <table  cellpadding="10" border = "0">
 
 
-	<img src="B9E1253C-1FE6-44ED-BE0A-6E499F4DEF28.jpg" width="1200" height="200">
+	<img src="B9E1253C-1FE6-44ED-BE0A-6E499F4DEF28.jpg" width="1550" height="250">
 
 	<p></p>
     <colgroup span="1" style="background-color:aliceblue;"></colgroup>
@@ -121,7 +121,7 @@
 	<script>
 		function formReset()
 		{
-		document.getElementById("myForm").reset()
+		document.getElementById("myForm").rese.t()
 		}
 	</script>
 </body>
