@@ -42,7 +42,7 @@ p {text-align: center; font-size:20px;}
 
 <div class="carousel">
     <div class="container">
-        <a href="https://3yya.com/" target="_blank"><img src="White Minimalist Dental Clinic Facebook Cover-2.jpg"/></a>
+        <a href="https://3yya.com/" target="_blank"><img src="White Minimalist Dental Clinic Facebook Cover-5.jpg"/></a>
         <a href="https://3yya.com/courseware" target="_blank"><img src="./assets/进击.jpg"/></a>
 
     </div>
