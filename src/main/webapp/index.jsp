@@ -55,8 +55,8 @@ p {text-align: center; font-size:20px;}
 
 <style>
     .carousel {
-        width: 800px;
-        height: 250px;
+        width: 1000px;
+        height: 350px;
 
         border-radius: 16px;
 
