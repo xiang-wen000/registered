@@ -38,7 +38,7 @@ body, h1, h2, h3, h4, h5, h6 {
 <div class="carousel">
     <div class="container">
         <a href="" target="_blank"><img src="White Minimalist Dental Clinic Facebook Cover-5.jpg"/></a>
-        <a href="" target="_blank"><img src="White Minimalist Dental Clinic Facebook Cover-10.jpg"/></a>
+        <a href="" target="_blank"><img src="White Minimalist Dental Clinic Facebook Cover-11.jpg"/></a>
 
     </div>
     <div class="shift">
