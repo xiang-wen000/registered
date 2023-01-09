@@ -7,9 +7,11 @@
 
 <title>Insert title here</title>
 </head>
+
 <body>
 
 <%@ include file="test.jsp" %>
+ 
    
 <style type='text/css'>
 .CancelTable {width:100%; margin:0 auto;border-collapse:collapse; border:solid 1px #ddd;}
@@ -29,7 +31,9 @@
 <table class="CancelTable">
 <tr>
 <th>姓名</th>
-<td></td>
+<td><%       
+  
+ %></td>
 
 
 
