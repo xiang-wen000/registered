@@ -19,11 +19,11 @@
 		  padding: 7px;
 		}
 	</style>
-<form  action="SchedulingManagement.jsp" >	
+<form  action="insertintoSch.jsp" >	
 <table>
   <tr>
    <td><label for="NotWorkTime">休假時段:</label>
-   <select id="NotWorkTime" name="NotWorkTime">
+   <select  name="NotWorkTime" id="NotWorkTime">
     <option value="1">上午</option>
     <option value="2">下午</option>
     <option value="3">晚上</option>
@@ -32,11 +32,11 @@
    </tr><br>
   <tr>
     <td>休假日期:
-    <input type="text" name="NotWorkDate" /></td>
+    <input type="date" name="NotWorkDate" id="NotWorkDate"/></td>
   </tr> <br>
   <tr>
   <td><label for="Reason">休假理由:</label>
-  <select id="Reason" name="Reason">
+  <select id="Reason" name="Reason" id="Reason">
     <option value="1">出國</option>
     <option value="2">到府看診</option>
     <option value="3">事假</option>
