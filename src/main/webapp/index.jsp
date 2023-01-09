@@ -33,17 +33,12 @@ body, h1, h2, h3, h4, h5, h6 {
 
 <body style="background-color: AliceBlue;">
 
-<style>
-h1 {text-align: center; font-size:40px;}
-p {text-align: center; font-size:20px;}
-</style>
-<h1 class="w3-margin w3-jumbo">陳毅文診所</h1>
-<p class="w3-xlarge">網路掛號預約系統</p>
+
 
 <div class="carousel">
     <div class="container">
         <a href="https://3yya.com/" target="_blank"><img src="White Minimalist Dental Clinic Facebook Cover-5.jpg"/></a>
-        <a href="https://3yya.com/courseware" target="_blank"><img src="./assets/进击.jpg"/></a>
+        <a href="https://3yya.com/courseware" target="_blank"><img src="COVID-19.jpg"/></a>
 
     </div>
     <div class="shift">
@@ -57,12 +52,14 @@ p {text-align: center; font-size:20px;}
     .carousel {
         width: 1000px;
         height: 350px;
+        margin : 100px auto;
 
         border-radius: 16px;
 
         overflow: hidden;
 
         position: relative;
+        
     }
 
     .carousel .container {
@@ -70,12 +67,12 @@ p {text-align: center; font-size:20px;}
         height: 100%;
 
         position: relative;
-        left: 0;
+        left: 0%;
 
         display: flex;
 
         /* 过渡动画 1s */
-        transition: all 1s;
+        transition: all 3.5s;
     }
 
     .carousel .container a {
@@ -83,6 +80,7 @@ p {text-align: center; font-size:20px;}
         height: 100%;
 
         flex-shrink: 0;
+       
     }
 
     .carousel .container a img {
@@ -99,7 +97,7 @@ p {text-align: center; font-size:20px;}
         bottom: 0;
         margin: auto 0;
 
-        background-color: teal;
+        background-color: #F0F0F0; 
         color: white;
 
         width: 50px;
@@ -131,7 +129,8 @@ p {text-align: center; font-size:20px;}
         position: absolute;
 
         bottom: 20px;
-
+        
+ 
         /* 绝对定位水平居中 */
         left: 0;
         right: 0;
@@ -177,7 +176,7 @@ p {text-align: center; font-size:20px;}
         // DOM 操作
         // 知识点：https://3yya.com/courseware/chapter/162
 
-        // 创建底部按钮
+    	// 创建底部按钮
         const indicator = document.createElement("div")
         indicator.classList.add("indicator")
         indicator.onclick = () => setIndex(i)
@@ -185,25 +184,26 @@ p {text-align: center; font-size:20px;}
         bottom.append(indicator)
     }
 
+    
     function createAuto() {
         return setInterval(() => {
             index++
             refresh()
-        }, 3000)
+        }, 11000)
     }
 
-    // 自动滚动
+ // 自动滚动
     let autoTimer = createAuto()
 
     function refresh() {
         if (index < 0) {
             // 下标小于 0 时
             // 设置最右的图片
-            index = imageCount - 1
+        	index = imageCount - 1
         } else if (index >= imageCount) {
             // 下标超过上限时
             // 设置最左的图片
-            index = 0
+        	 index = 0
         }
 
         // 获取轮播框元素
@@ -216,7 +216,7 @@ p {text-align: center; font-size:20px;}
         carousel.querySelector(".container").style.left =
             index * width * -1 + "px"
     }
-
+ 
     let refreshWrapper = (func) => {
         // refresh 装饰器
         return function (...args) {
@@ -229,6 +229,7 @@ p {text-align: center; font-size:20px;}
             return result
         }
     }
+    
 
     let leftShift = refreshWrapper(() => {
         index--
@@ -276,7 +277,7 @@ p {text-align: center; font-size:20px;}
 
 
 
-<img src="https://ppt.cc/fR12Jx@.png" alt="Trulli" width="500" height="350">
+
         
 
 	<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
