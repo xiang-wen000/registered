@@ -36,7 +36,7 @@
   </tr> <br>
   <tr>
   <td><label for="Reason">休假理由:</label>
-  <select id="Reason" name="Reason" id="Reason">
+  <select  name="Reason" id="Reason" >
     <option value="1">出國</option>
     <option value="2">到府看診</option>
     <option value="3">事假</option>

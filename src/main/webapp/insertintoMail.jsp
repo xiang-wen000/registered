@@ -23,7 +23,7 @@
 		
 	try{
 		//把要欄位名稱也放到下方語法對應的位置
-		smt.execute("INSERT INTO DrLeave (NotWorkTime, NotWorkDate, Reason) VALUES('"+NotWorkTime+"','"+NotWorkDate+"','"+Reason+"')");
+		smt.execute("INSERT INTO DrLeave (Appointmentid,DeliveryStatus, Reason) VALUES('"+NotWorkTime+"','"+NotWorkDate+"','"+Reason+"')");
 		con.close();
 		out.println("<script>");
 		out.println("alert('資料新增成功!');");

@@ -36,9 +36,8 @@
 	 <table border='1'>
 	 <tr>
 	 <th>¹w¬ù¸¹</th>
-	 <th>©m¦W</th>
-	 <th>¤w¶Ç°e</th>
-     <th>¥¼¶Ç°e</th>
+	 <th>¶Ç°eª¬ºA</th>
+	 <th>¤Ä¿ï</th>
 	 </tr>
 	
 	<%
@@ -46,7 +45,7 @@
 	<tr>
 	
     <td><%=rs.getString("Appointmentid")%></td>
-    	 
+    <td><%=rs.getString("DeliveryStatus")%></td>
     <td> <input type="checkbox" value="1"></td>
     <td> <input type="checkbox" value="2"></td>
 	</tr>
