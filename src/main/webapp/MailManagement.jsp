@@ -49,11 +49,11 @@
     <option value="1">已傳送</option>
     <option value="2">未傳送</option>
     </select> 
+    <td><input type="submit" value="確認"></td>
 	</tr>
 	<%}	
 	con.close();
 	%>
-  <input type="submit" value="確認">
  </form>
 </body>
 </html>
