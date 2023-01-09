@@ -16,12 +16,12 @@
 	Statement smt= con.createStatement();
 	
 	//改成你們資料庫裡的欄位名稱，等號左右都要改成一樣的
-	String ID = new String(request.getParameter("ID"));
-	String Name = new String(request.getParameter("Name"));
-	
+		String ID = new String(request.getParameter("ID"));
+
+
 	try{
 		//把要欄位名稱也放到下方語法對應的位置
-		smt.execute("DELETE FROM Patient WHERE ID= '"+ID+"' and Name= '"+Name+"'");
+		smt.execute("DELETE FROM Patient WHERE ID= '"+ID+"'");
 		con.close();
 		out.println("<script>");
 		out.println("alert('資料刪除成功!');");

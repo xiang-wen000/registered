@@ -19,9 +19,9 @@
 
 </style>
 </head>
-
+<body> 
 <%@ include file="test.jsp" %>
-
+ 
 <!--<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">-->
 
 
@@ -41,11 +41,11 @@
 	</tr>
 	<tr>
 	  <td align='center' valign="middle">林東照醫師</td>
-	  <td align='center' valign="middle">0</td>
+	  <td align='center' valign="middle"></td>
 	</tr>  
 </table>
 
-<body>     
+    
 	<br>
 	<ul class="nav nav-radio" id="myTab">
 		<li class="nav-item">
@@ -87,13 +87,11 @@
 				<span style="color:red">*</span> &ensp;手機電話 &emsp;&emsp;&nbsp;
 				<input type="text" id="MobilPhone" name="MobilPhone">
 				<input type="button" onclick="formReset()" value="重新輸入">
-				<br>&emsp;<input type="Submit"  class="btn btn-color"  value="確認">
-			  <a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
 			</p>
 		</form>
 	</div>
 </form>	
-<form  action="Inquire_text20.jsp" >
+
 	<div class="tab-pane fade" id="tab2">
 		<form id="myForm" >
 			<p> 
@@ -104,19 +102,19 @@
 				&emsp;
 				<span style="color:red">*</span> &ensp;姓名 &emsp;&emsp;&emsp;&emsp;
 				<input type="text" id="Name" name="Name">
-				 <br>&emsp;<input type="Submit"  class="btn btn-color"  value="確認">
-			  <a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
+				
 			</p>
 		</form>
 	</div>
-			  
+			<input type="Submit"  class="btn btn-color"  value="確認">
+			<a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
 			<td colspan="3" style="text-align: center; height: 50px;">
 			<div class="RedMsg">
 			</div>
 			</td>
-</div>			
-</form>
-			
+		
+
+		
 	<script>
 		function formReset()
 		{
