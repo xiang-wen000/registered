@@ -31,27 +31,29 @@
 	String sql = "SELECT * FROM Email  ";
 	ResultSet rs = smt.executeQuery(sql);
 	%>
-
+ <form  action="insertintoMail.jsp" >	
    <H1>病患管理<H1>
 	 <table border='1'>
 	 <tr>
 	 <th>預約號</th>
 	 <th>傳送狀態</th>
-	 <th>勾選</th>
+	 <th>確認</th>
 	 </tr>
 	
 	<%
 	while(rs.next()){%>
 	<tr>
-	
     <td><%=rs.getString("Appointmentid")%></td>
-    <td><%=rs.getString("DeliveryStatus")%></td>
-    <td> <input type="checkbox" value="1"></td>
-    <td> <input type="checkbox" value="2"></td>
+    <td><label for="DeliveryStatus"></label>
+    <select  name="DeliveryStatus" id="DeliveryStatus" >
+    <option value="1">已傳送</option>
+    <option value="2">未傳送</option>
+    </select> 
 	</tr>
 	<%}	
 	con.close();
 	%>
- </form>	
+  <input type="submit" value="確認">
+ </form>
 </body>
 </html>

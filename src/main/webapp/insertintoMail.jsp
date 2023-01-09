@@ -16,19 +16,19 @@
 	Statement smt= con.createStatement();
 	
 	//改成你們資料庫裡的欄位名稱，等號左右都要改成一樣的
-	String Appointmentid = new String(request.getParameter("Appointmentid"));
+	
 	String DeliveryStatus = new String(request.getParameter("DeliveryStatus"));
-	String Reason = new String(request.getParameter("Reason"));
+
 	
 		
 	try{
 		//把要欄位名稱也放到下方語法對應的位置
-		smt.execute("INSERT INTO DrLeave (Appointmentid,DeliveryStatus, Reason) VALUES('"+NotWorkTime+"','"+NotWorkDate+"','"+Reason+"')");
+		smt.execute("INSERT INTO Email (DeliveryStatus) VALUES('"+DeliveryStatus+"')");
 		con.close();
 		out.println("<script>");
 		out.println("alert('資料新增成功!');");
 		//問號的地方寫你們新增資料後要去的檔案位置
-		out.println("location='SchedulingManagement.jsp';");
+		out.println("location='MailManagement.jsp';");
 		out.println("</script>");
 	
 	}catch (Exception e){
