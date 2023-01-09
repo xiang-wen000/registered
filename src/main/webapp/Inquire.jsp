@@ -4,7 +4,7 @@
 
 
 <html>
-<head><title>登入頁面</title></head>
+<head><title>查詢</title></head>
 
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -42,10 +42,19 @@ span.memberpwd {
   padding-top: 16px;
 }
 </style>
-
+<%  
+            String ID=request.getParameter("ID");  
+            ID=new String(ID.getBytes("iso-8859-1"));  
+  
+            out.print("ID");  
+        %>  
+         <%  
+            out.print("Name"+request.getParameter("Name"));  
+        %>  
 <body>
 <h2>查詢預約</h2>
 <form  action="Inquire_inquire.jsp" >
+
  <form method="post">
    <div class="container">
 	<label for="ID"><b>身分證字號</b></label>

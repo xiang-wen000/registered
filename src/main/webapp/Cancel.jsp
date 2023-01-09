@@ -10,7 +10,7 @@
 <body>
 
 <%@ include file="test.jsp" %>
-
+   
 <style type='text/css'>
 .CancelTable {width:100%; margin:0 auto;border-collapse:collapse; border:solid 1px #ddd;}
 .CancelTable th {font-size:15px;background-color:#ECF5FF;padding:5px;text-align:center;border:solid 1px #ddd;color:	#000000;}
@@ -29,13 +29,11 @@
 <table class="CancelTable">
 <tr>
 <th>姓名</th>
-<td>
+<td></td>
 
-<input type="hidden" name="ctl00$ContentPlaceHolder1$DL_List$ctl00$HF_REG_IDNO" id="ctl00_ContentPlaceHolder1_DL_List_ctl00_HF_REG_IDNO" value="" />
-<input type="hidden" name="ctl00$ContentPlaceHolder1$DL_List$ctl00$HF_REG_CHRT" id="ctl00_ContentPlaceHolder1_DL_List_ctl00_HF_REG_CHRT" value="9999991" />
-</td>
+
+
 <th>取消</th>
-
 <td>
 <a onclick="return&#32;confirm(&#39;是否確定取消此掛號?&#39;);" id="ctl00_ContentPlaceHolder1_DL_List_ctl00_LB_DEL" class="Btn_Red" href="javascript:__doPostBack(&#39;ctl00$ContentPlaceHolder1$DL_List$ctl00$LB_DEL&#39;,&#39;&#39;)">取消掛號</a>
 </td>
@@ -43,11 +41,10 @@
 
 <tr>
 <th>掛號日期</th>
-<td>2022/12/29</td>
+<td><input type="hidden" name="Name" id="Name" value="" /></td>
 
 <th>時段</th>
-<td colspan="2">
-晚上</td>
+<td colspan="2"><input type="hidden" name="Name" id="Name" value="" /></td>
 </tr>
 
 <tr>
