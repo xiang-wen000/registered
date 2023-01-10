@@ -21,8 +21,8 @@
 		}
 	</style>
 <style type='text/css'>
-.Btn_Red { display:inline-block; font-size:15px; background-color:#f33d2c; color:#fff; margin:2px; padding:5px 15px;text-decoration:none; border-radius:6px;}
-.Btn_Red:hover { background-color:#c12618; color:#fff;text-decoration:none;}
+.Btn_Black { display:inline-block; font-size:15px; background-color:#D0D0D0; color:	#000000; margin:2px; padding:5px 10px;text-decoration:none; border-radius:5px;}
+.Btn_Black:hover { background-color:#D0D0D0; color:	#000000;text-decoration:none;}
 </style>
 	<%
 	Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
@@ -49,7 +49,7 @@
     <option value="1">已傳送</option>
     <option value="2">未傳送</option>
     </select> 
-    <td><input type="submit" value="確認"></td>
+    <td><input type="submit" class="Btn_Black" value="確認"></td>
 	</tr>
 	<%}	
 	con.close();
