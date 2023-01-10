@@ -71,7 +71,7 @@ body, h1, h2, h3, h4, h5, h6 {
 
         display: flex;
 
-        /* 过渡动画 1s */
+        /* 過度動畫 1s */
         transition: all 3.5s;
     }
 
@@ -107,7 +107,7 @@ body, h1, h2, h3, h4, h5, h6 {
         font-size: 40px;
         font-weight: bold;
 
-        /* 字符水平垂直居中 */
+        /* 字符水平垂直置中 */
         line-height: 50px;
         text-align: center;
 
@@ -136,12 +136,12 @@ body, h1, h2, h3, h4, h5, h6 {
         right: 0;
         margin: 0 auto;
 
-        /* 宽度等同于内容宽度 */
-        /* 知识点：https://3yya.com/courseware/chapter/79#关键字属性 */
+        /* 寬度等同于内容寬度 */
+        /* 知識點：https://3yya.com/courseware/chapter/79#關鍵字屬性 */
         width: max-content;
 
         display: flex;
-        /* 指示器间距 */
+        /* 指示器兼具 */
         gap: 10px;
     }
 
@@ -163,10 +163,10 @@ body, h1, h2, h3, h4, h5, h6 {
     }
 </style>
 <script>
-    // 显示的图片下标
+    // 顯示的圖片下標
     let index = 0
 
-    // 图片的数量
+    // 圖片的數量
     let imageCount = document.querySelectorAll(
         ".carousel .container img"
     ).length
@@ -174,9 +174,9 @@ body, h1, h2, h3, h4, h5, h6 {
     const bottom = document.querySelector(".carousel .bottom")
     for (let i = 0; i < imageCount; i++) {
         // DOM 操作
-        // 知识点：https://3yya.com/courseware/chapter/162
+        // 知識點：https://3yya.com/courseware/chapter/162
 
-    	// 创建底部按钮
+    	// 創建底部按钮
         const indicator = document.createElement("div")
         indicator.classList.add("indicator")
         indicator.onclick = () => setIndex(i)
@@ -189,27 +189,27 @@ body, h1, h2, h3, h4, h5, h6 {
         return setInterval(() => {
             index++
             refresh()
-        }, 11000)
+        }, 12000)
     }
 
- // 自动滚动
+ // 自動滾動
     let autoTimer = createAuto()
 
     function refresh() {
         if (index < 0) {
-            // 下标小于 0 时
-            // 设置最右的图片
+            // 下標小於 0 时
+            // 設置最右的圖片
         	index = imageCount - 1
         } else if (index >= imageCount) {
-            // 下标超过上限时
-            // 设置最左的图片
+            // 下標超過上限時
+            // 設置最左的圖片
         	 index = 0
         }
 
-        // 获取轮播框元素
+        // 獲取輪播框元素
         let carousel = document.querySelector(".carousel")
 
-        //获取轮播框的宽度
+        //獲取輪播框的寬度
         let width = getComputedStyle(carousel).width
         width = Number(width.slice(0, -2))
 
@@ -218,12 +218,12 @@ body, h1, h2, h3, h4, h5, h6 {
     }
  
     let refreshWrapper = (func) => {
-        // refresh 装饰器
+        // refresh 裝飾器
         return function (...args) {
             let result = func(...args)
             refresh()
 
-            // 重置自动滚动
+            // 重置自動滾動
             clearInterval(autoTimer)
             autoTimer = createAuto()
             return result
@@ -244,41 +244,6 @@ body, h1, h2, h3, h4, h5, h6 {
 
     refresh()
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
 
 	<div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
 		<h1 class="w3-margin w3-xlarge">掛號辦法</h1>
