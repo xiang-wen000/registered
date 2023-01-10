@@ -21,8 +21,9 @@ Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
 }
 %>
 <html>
-<head><title>查詢</title></head>
+<head><title>Inquire</title></head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;}
@@ -37,8 +38,8 @@ input[type=text]{
 }
 
 button {
-  background-color: #4CAF50;
-  color: white;
+  background-color: #F0FFF0	;
+  color: black;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -87,7 +88,8 @@ span.psw {
 }
 </style>
 <body>
-<h2>Login Form</h2>
+
+<h2>查詢</h2>
 <form method="post">
 <div class="container">
 	<label for="ID"><b>身分證字號</b></label>
