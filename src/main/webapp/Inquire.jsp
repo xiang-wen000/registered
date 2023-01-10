@@ -8,6 +8,9 @@
 <%@page import="java.sql.*"%>
 
 <%@ include file="test.jsp" %>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 <html>
 <head>
