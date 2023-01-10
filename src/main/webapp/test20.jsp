@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 
-<title>Insert title here</title>
+<title>Appointment</title>
 <style>
 .btn-color {
         color:#FFECEC
@@ -61,10 +61,10 @@
 	</ul>
 	
 	<!-- 內容 -->
-<form  action="insertinto.jsp" >
+
 <div class="tab-content" id="myTabContent">
 	<div class="tab-pane fade" id="tab1" >
-		<form id="myForm" >
+		<form  action="insertinto.jsp" >
 			<p> 
 				<br>
 				&emsp;
@@ -86,14 +86,16 @@
 				&emsp;
 				<span style="color:red">*</span> &ensp;手機電話 &emsp;&emsp;&nbsp;
 				<input type="text" id="MobilPhone" name="MobilPhone">
-				<input type="button" onclick="formReset()" value="重新輸入">
+				<br>
+				<input type="Submit"  class="btn btn-color"  value="確認">
+			<a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
 			</p>
-		</form>
+	  </form>	
 	</div>
-</form>	
+
 
 	<div class="tab-pane fade" id="tab2">
-		<form id="myForm" >
+		<form  action="Inquire_text20.jsp" >
 			<p> 
 				<br>
 				&emsp;
@@ -102,24 +104,12 @@
 				&emsp;
 				<span style="color:red">*</span> &ensp;姓名 &emsp;&emsp;&emsp;&emsp;
 				<input type="text" id="Name" name="Name">
-				
+				<br>
+			<input type="Submit"  class="btn btn-color"  value="確認">
+			<a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
 			</p>
 		</form>
 	</div>
-			<input type="Submit"  class="btn btn-color"  value="確認">
-			<a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
-			<td colspan="3" style="text-align: center; height: 50px;">
-			<div class="RedMsg">
-			</div>
-			</td>
 		
-
-		
-	<script>
-		function formReset()
-		{
-		document.getElementById("myForm").rese.t()
-		}
-	</script>
 </body>
 </html>
