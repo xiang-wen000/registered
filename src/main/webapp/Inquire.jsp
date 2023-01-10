@@ -87,7 +87,7 @@ span.psw {
   }
 }
 </style>
-<%@ include file="test.jsp" %>
+
 <body>
 
 <h2>¬d¸ß</h2>

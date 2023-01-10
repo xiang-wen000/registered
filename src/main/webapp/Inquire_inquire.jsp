@@ -23,17 +23,17 @@
 		
 	try{
 		//把要欄位名稱也放到下方語法對應的位置
-		smt.execute("SELECT ID FROM Patient WHERE ID= '"+ID+"'");
+		smt.execute("DELETE FROM Patient WHERE ID= '"+ID+"'");
 		con.close();
 		out.println("<script>");
-		out.println("alert('資料查詢成功!');");
+		out.println("alert('資料刪除成功!');");
 		//問號的地方寫你們新增資料後要去的檔案位置
-		out.println("location='Cancel.jsp';");
+		out.println("location='Docterschedule.jsp';");
 		out.println("</script>");
 	
 	}catch (Exception e){
 		out.println("<script>");
-		out.println("alert('資料查詢失敗，有欄位尚未正確!');");
+		out.println("alert('資料刪除失敗，有欄位尚未正確!');");
 		//問號的地方寫你們新增失敗後要去的檔案位置
 		out.println("location='Inquire.jsp';");
 		out.println("</script>");
