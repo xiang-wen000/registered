@@ -1,6 +1,14 @@
+<<<<<<< Updated upstream
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+=======
+<%@page contentType="text/html"%>
+<%@page pageEncoding="BIG5"%>
+<%@page import="java.sql.*"%>
+
+<%@ include file="test.jsp" %>
+>>>>>>> Stashed changes
 <html>
 <head>
 <body> 
@@ -76,9 +84,17 @@ span.psw {
 <form  action="Inquire_inquire.jsp" >
 <form method="post">
 <div class="container">
+<<<<<<< Updated upstream
 	<label for="ID"><b>èº«åˆ†è­‰å­—è™Ÿ</b></label>
     <input type="text" placeholder="Enter ID" name="ID" ID="ID"required>
     <button type="submit" name="CancelButton">å–æ¶ˆ</button>
 <form>		
+=======
+	<label for="ID"><b>¨­¤ÀÃÒ¦r¸¹</b></label>
+    <input type="text" placeholder="YourID" name="ID" required>
+    <button type="submit" name="loginButton">¬d¸ß</button>
+</div>
+</form>
+>>>>>>> Stashed changes
 </body>
 </html>
