@@ -7,6 +7,10 @@
 <iframe src="http://localhost:8080/registered/home1.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">
 </iframe>
 <h1>醫師班表</h1>
+<style type='text/css'>
+.Btn_Black { display:inline-block; font-size:15px; background-color:#D0D0D0; color:	#000000; margin:2px; padding:5px 10px;text-decoration:none; border-radius:5px;}
+.Btn_Black:hover { background-color:#D0D0D0; color:	#000000;text-decoration:none;}
+</style>
 <style>
 		table {
 		  font-family: arial, sans-serif;
@@ -43,8 +47,8 @@
     <option value="3">事假</option>
   </select> 
    </td>
-   </table>
-    <input type="submit" value="確認">
+   </table><br>
+    <input type="submit" class="Btn_Black" value="確認">
 </form>
 
 </body>
