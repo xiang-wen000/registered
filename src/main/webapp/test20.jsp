@@ -33,7 +33,7 @@
 	<p></p>
     <colgroup span="1" style="background-color:aliceblue;"></colgroup>
     <colgroup style="background-color:#FFECEC	;"></colgroup>
-    <td colspan=4>2023/01/10 星期四 早上 8:30~12:00</td>
+    <td colspan=4>2023/01/11 星期三 早上 8:30~12:00</td>
   
 	<tr>
 	  <td align='center' valign="middle">看診醫師</td>
