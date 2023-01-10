@@ -86,7 +86,7 @@
 				&emsp;
 				<span style="color:red">*</span> &ensp;手機電話 &emsp;&emsp;&nbsp;
 				<input type="text" id="MobilPhone" name="MobilPhone">
-				<br>
+				<br><br>
 				<input type="Submit"  class="btn btn-color"  value="確認">
 			<a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
 			</p>
@@ -104,7 +104,7 @@
 				&emsp;
 				<span style="color:red">*</span> &ensp;姓名 &emsp;&emsp;&emsp;&emsp;
 				<input type="text" id="Name" name="Name">
-				<br>
+				<br><br>
 			<input type="Submit"  class="btn btn-color"  value="確認">
 			<a class="btn btn-color" href="http://localhost:8080/registered/test20.jsp">重新填寫</a>
 			</p>
