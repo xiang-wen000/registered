@@ -33,7 +33,7 @@
 	<p></p>
     <colgroup span="1" style="background-color:aliceblue;"></colgroup>
     <colgroup style="background-color:#FFECEC	;"></colgroup>
-    <td colspan=4>2022/12/16 星期五 早上 8:30~12:00</td>
+    <td colspan=4>2023/01/10 星期四 早上 8:30~12:00</td>
   
 	<tr>
 	  <td align='center' valign="middle">看診醫師</td>
@@ -41,7 +41,7 @@
 	</tr>
 	<tr>
 	  <td align='center' valign="middle">林東照醫師</td>
-	  <td align='center' valign="middle"></td>
+	  <td align='center' valign="middle">2</td>
 	</tr>  
 </table>
 

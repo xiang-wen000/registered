@@ -1,28 +1,13 @@
-<%@page contentType="text/html"%>
-<%@page pageEncoding="BIG5"%>
-<%@page import="java.sql.*"%>
-
-<%
-session.setAttribute("access","n");
-if(request.getParameter("ID") !=null){
-Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-	Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\User\\Documents\\GitHub\\registered\\src\\main\\webapp\\Data.accdb;");
-	Statement smt= con.createStatement
-			(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
-	String getpaperdata = "SELECT * FROM Patient WHERE ID='"+request.getParameter("ID")+"'";
-	ResultSet paperrs = smt.executeQuery(getpaperdata);
-	if(paperrs.next()){
-		session.setAttribute("access","y");
-		session.setAttribute("accessid",request.getParameter("ID"));
-		session.setMaxInactiveInterval(5);
-		response.sendRedirect("session.jsp");
-	}else
-		out.println("¨­¤ÀÃÒ¦r¸¹¤£²Å¡I½Ğ­«·s¿é¤J");
-}
-%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
 <html>
-<head><title>Inquire</title></head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<body> 
+<%@ include file="test.jsp" %>
+ <html>
+<head><title>Cancel</title></head>
+
 
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
@@ -87,23 +72,13 @@ span.psw {
   }
 }
 </style>
-
-<body>
-
-<h2>¬d¸ß</h2>
+<h2>å–æ¶ˆé ç´„</h2>
+<form  action="Inquire_inquire.jsp" >
 <form method="post">
 <div class="container">
-	<label for="ID"><b>¨­¤ÀÃÒ¦r¸¹</b></label>
-    <input type="text" placeholder="Enter ID" name="ID" required>
-	<% if(request.getParameter("ID")!= null){ %>
-		value = '<%=request.getParameter("ID") %>'
-	<%}%>
-   
-    <button type="submit" name="InquireButton">¬d¸ß</button>
-</div>
-
-    
-  </div>
-</form>
+	<label for="ID"><b>èº«åˆ†è­‰å­—è™Ÿ</b></label>
+    <input type="text" placeholder="Enter ID" name="ID" ID="ID"required>
+    <button type="submit" name="CancelButton">å–æ¶ˆ</button>
+<form>		
 </body>
 </html>
