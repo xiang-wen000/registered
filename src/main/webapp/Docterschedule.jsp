@@ -107,9 +107,9 @@
 					document.write("<tr>");
 					
 					document.write("<td>" + year2 + "/" + m + "/" + j + "</td>");
-					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>林東照</a>"+"</td>");
-					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>林東照</a>"+"</td>");
-					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>林東照</a>"+"</td>");	
+					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>陳毅文</a>"+"</td>");
+					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>陳文逸</a>"+"</td>");
+					document.write("<td>"+"<a href = http://localhost:8080/registered/test20.jsp>陳文婕</a>"+"</td>");	
 					
 				}
 				if(j > day)

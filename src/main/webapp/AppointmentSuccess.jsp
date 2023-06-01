@@ -7,6 +7,7 @@
 <meta charset="BIG5">
 <title>Insert title here</title>
 </head>
+
 <body>
 
 <style type='text/css'>
@@ -26,9 +27,9 @@ width:100%; margin:0 auto;border-collapse:collapse; border:solid 1px #ddd;
 }
 </style>
 
-<table class='SuccTable' style='margin-top:5px;'><tr><th colspan='4' style='background-color:#dbfddd;'>預約的日期和時間2023/01/11</td>
-<th>看診醫師</th><td>林東照</td></tr>
-<tr><th>姓名</th><td colspan='3'>林星星</td>
+<table class='SuccTable' style='margin-top:5px;'><tr><th colspan='4' style='background-color:#dbfddd;'>預約的日期和時間2023/06/15</td>
+<th>看診醫師</th><td>陳毅文</td></tr>
+<tr><th>姓名</th><td colspan='3'>陳星星</td>
 <th colspan='2' style='background-color:#ffeafb;'>掛號號碼</th></tr>
 <tr><th>身份證字號</th><td colspan='3'>A123456789</td>
 <td colspan='2' rowspan='2' style='font-size:25px; color:#ff0000; font-weight:bold;'>003</td></tr>
