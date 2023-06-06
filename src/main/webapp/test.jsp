@@ -60,6 +60,7 @@ li a:hover {
   
   <li><a class="active" href="http://localhost:8080/registered/index.jsp">首頁</a></li>
   <li><a href="http://localhost:8080/registered/Docterschedule.jsp">預約看診</a></li>
+  <li><a href="http://localhost:8080/registered/Chronic Prescription.jsp">慢籤預約</a></li>
   <li><a href="http://localhost:8080/registered/Inquire1.jsp">取消掛號</a></li>
   <li><a href="http://localhost:8080/registered/login.jsp">管理者</a></li>
   

@@ -22,12 +22,10 @@
 <body> 
 <%@ include file="test.jsp" %>
  
-<!--<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">-->
+<!--暫時<iframe src="http://localhost:8080/registered/home.jsp" width="1500px" height="50px" frameborder="0" scrolling="no">-->
 
 
 <table  cellpadding="10" border = "0">
-
-
 	<img src="B9E1253C-1FE6-44ED-BE0A-6E499F4DEF28.jpg" width="1550" height="250">
 
 	<p></p>
@@ -61,7 +59,6 @@
 	</ul>
 	
 	<!-- 內容 -->
-
 <div class="tab-content" id="myTabContent">
 	<div class="tab-pane fade" id="tab1" >
 	<!-- 資料庫	<form  action="insertinto.jsp" > -->

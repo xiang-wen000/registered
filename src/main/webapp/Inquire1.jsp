@@ -87,7 +87,6 @@ span.psw {
         var showtxt = document.querySelector('.show');
 
         function popup2(e) {
-            window.confirm('是否取消預約？');
             if (confirm('是否取消預約？') == true) {
                 showtxt.innerHTML = '您已取消預約';
             } else {

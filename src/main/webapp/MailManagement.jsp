@@ -24,8 +24,8 @@
 .Btn_Black { display:inline-block; font-size:15px; background-color:#D0D0D0; color:	#000000; margin:2px; padding:5px 10px;text-decoration:none; border-radius:5px;}
 .Btn_Black:hover { background-color:#D0D0D0; color:	#000000;text-decoration:none;}
 </style>
-<!-- text0602第三段 -->
- <form  action="insertintoMail.jsp" >	
+<!-- text0602第三段  <form  action="insertintoMail.jsp" >-->
+<body>	
    <H1>病患管理<H1>
 	 <table border='1'>
 	 <tr>
