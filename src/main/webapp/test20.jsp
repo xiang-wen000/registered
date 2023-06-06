@@ -147,7 +147,7 @@
 				<span style="color:red">*</span> &ensp;緊急聯絡人電話 &emsp;&emsp;&emsp;
 				<input type="text" id="EmerPhone" name="EmerPhone"><br><br>
 				&emsp;
-				<!-- 暫時 <input type="submit" class="btn btn-color"  value="確認" > -->
+				<!--  暫時<input type="submit" class="btn btn-color"  value="確認" > -->
 				<script>
                 function showalert() {	
 	            answer = confirm("預約資料成功！");
@@ -175,7 +175,7 @@
 				<span style="color:red">*</span> &ensp;姓名 &emsp;&emsp;&emsp;&emsp;
 				<input type="text" id="Name" name="Name">
 				<br><br>
-			<!-- 暫時<input type="Submit"  class="btn btn-color"  value="確認"> -->
+			<!-- 暫時 <input type="Submit"  class="btn btn-color"  value="確認"> -->
 			<script>
                 function showalert() {	
 	            answer = confirm("預約資料成功！");

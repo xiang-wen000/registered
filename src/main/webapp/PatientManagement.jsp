@@ -28,33 +28,33 @@
 .Btn_Red { display:inline-block; font-size:15px; background-color:#f33d2c; color:#fff; margin:2px; padding:5px 15px;text-decoration:none; border-radius:6px;}
 .Btn_Red:hover { background-color:#c12618; color:#fff;text-decoration:none;}
 </style>
-	<%
-	Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-	Connection con=DriverManager.getConnection("jdbc:ucanaccess://C:\\Users\\User\\Documents\\GitHub\\registered\\src\\main\\webapp\\Data.accdb;");
-	Statement smt= con.createStatement();
-	String sql = "SELECT * FROM Patient ";
-	ResultSet rs = smt.executeQuery(sql);
-	%>
-
+ 
+ <!-- 這裡有一段在TEXT0602-->
  <form  action="deletePat.jsp" >
-   <H1>病患管理<H1>
+   <H1>病患管理<H1><input type="button" value="新增資料"  style="width:60px;height:30px;pxborder-radius:10px;background-color:#D2E9FF;">
 	 <table border='1'>
-	 <tr>
+	<tr>
 	 <th>身分證字號</th>
 	 <th>姓名</th>
-	 <th>刪除</th>
-	 </tr>
-
-	<%
-	while(rs.next()){%>
-	<tr>
-    <td><%=rs.getString("ID")%></td>	 
-    <td><%=rs.getString("Name")%></td>
-    <td><a href="deletePat.jsp?ID=<%=rs.getString("ID")%>" class="Btn_Red">刪除</a></td>
+	 <th>類型</th>
 	</tr>
-	<%}	
-	con.close();
-	%>
+	<tr>
+     <td>F123456789</td>
+     <td>王小明</td>
+     <td><input type="button" value="修改" style="width:60px;height:30px;background-color:#D2E9FF;">/<input type="button" value="刪除" style="width:60px;height:30px;background-color:#FF5F5F;"></td>
+    </tr>
+    <tr>
+     <td>F987654321</td>
+     <td>林一淋</td>
+    <td><input type="button" value="修改" style="width:60px;height:30px;background-color:#D2E9FF;">/<input type="button" value="刪除" style="width:60px;height:30px;background-color:#FF5F5F;"></td>
+    </tr>
+    <tr>
+     <td>A123456789</td>
+     <td>陳星星</td>
+     <td><input type="button" value="修改" style="width:60px;height:30px;background-color:#D2E9FF;">/<input type="button" value="刪除" style="width:60px;height:30px;background-color:#FF5F5F;"></td>
+    </tr>
+	 <!-- 這裡有一段在TEXT0602 -->
+	
 </form>
 </body>
 </html>

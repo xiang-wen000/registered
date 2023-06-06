@@ -1,8 +1,8 @@
 <%@page contentType="text/html"%>
 <%@page pageEncoding="BIG5"%>
 <%@page import="java.sql.*"%>
+<!-- 
 
-<%
 if(request.getParameter("managerID") !=null &&
 	request.getParameter("managerPwd") !=null){
         Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
@@ -18,7 +18,8 @@ if(request.getParameter("managerID") !=null &&
 	}else
 		out.println("帳號密碼不符！請重新登入");
 }
-%>
+%> -->
+
 <html>
 <head><title>登入頁面</title></head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -70,7 +71,8 @@ span.memberpwd {
     <label for="managerPwd"><b>密碼</b></label>
     <input type="password" placeholder="Enter Password" name="managerPwd" required>
         
-    <button type="submit" name="loginButton">登入</button>
+    <!-- <button type="submit" name="loginButton">登入</button> -->
+ <button type="submit"  value="登入" onclick="location.href='http://localhost:8080/registered/PatientManagement.jsp'">登入</button>
 </div>
 </form>
 </body>

@@ -73,12 +73,30 @@ span.psw {
 }
 </style>
 <h2>取消預約</h2>
-<form  action="Inquire_inquire.jsp" >
+<!-- 暫時<form  action="Inquire_inquire.jsp" > -->
 <form method="post">
 <div class="container">
 	<label for="ID"><b>身分證字號</b></label>
     <input type="text" placeholder="Enter ID" name="ID" ID="ID"required>
-    <button type="submit" name="CancelButton">取消</button>
+  <!-- 暫時 <button type="submit" name="CancelButton">取消</button> --> 
+   <button class='popuptest' type="botton" value="取消">取消</button>
+    <p class='show'></p>
+
+    <script>
+        var button = document.querySelector('.popuptest');
+        var showtxt = document.querySelector('.show');
+
+        function popup2(e) {
+            window.confirm('是否取消預約？');
+            if (confirm('是否取消預約？') == true) {
+                showtxt.innerHTML = '您已取消預約';
+            } else {
+                showtxt.innerHTML = '您已取消確認';
+            }
+
+        };
+        button.addEventListener('click', popup2);
+    </script>
 <form>		
 </body>
 </html>
