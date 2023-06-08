@@ -59,7 +59,7 @@
 	 <tr>
 	<!-- 第三種方法：使用 onClick 來完成此項工作。若 onClick 的值為偽，則連結無作用 -->
 	<th>
-	     <a href="http://localhost:8080/registered/Chronic Prescription.jsp" onClick="return(confirm('預約資料成功！'))"class="btn btn-color">確認</a>
+	     <a href="http://localhost:8080/registered/Chronic Prescription.jsp" onClick="return(confirm('預約成功！'))"class="btn btn-color">確認</a>
 	</th>
 	 </tr>
 	<script>
