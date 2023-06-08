@@ -46,7 +46,7 @@
      <option value="3">取消</option>
     </select>
     </th>
-	 <th><input type="button" value="修改" style="width:60px;height:30px;background-color:#D2E9FF;"></th>
+	 <th><input type="button" value="修改" style="width:60px;height:30px;border:2px none;background-color:#D2E9FF;"></th>
 	 </tr>
 	  <tr>
 	 <th>00002</th>
@@ -59,7 +59,7 @@
      <option value="3">取消</option>
     </select>
     </th>
-	 <th><input type="button" value="修改" style="width:60px;height:30px;background-color:#D2E9FF;"></th>
+	 <th><input type="button" value="修改" style="width:60px;height:30px;border:2px none;background-color:#D2E9FF;"></th>
 	 </tr>
 	 <tr>
 	 <th>00003</th>
@@ -72,7 +72,7 @@
      <option value="3">取消</option>
     </select>
     </th>
-	 <th><input type="button" value="修改" style="width:60px;height:30px;background-color:#D2E9FF;"></th>
+	 <th><input type="button" value="修改" style="width:60px;height:30px;border:2px none;background-color:#D2E9FF;"></th>
 	 </tr>
 <!-- 這裡有一段在TEXT0602 -->	
  </form>

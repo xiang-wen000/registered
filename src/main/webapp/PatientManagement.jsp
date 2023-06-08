@@ -31,7 +31,7 @@
  
  <!-- 這裡有一段在TEXT0602-->
  <form  action="deletePat.jsp" >
-   <H1>病患管理<H1><input type="button" value="新增資料"  style="width:60px;height:30px;pxborder-radius:10px;background-color:#D2E9FF;">
+   <H1>病患管理<H1><input type="button" value="新增資料"  style="width:90px;height:30px;border:2px none;;background-color:#D2E9FF;">
 	 <table border='1'>
 	<tr>
 	 <th>身分證字號</th>
@@ -41,17 +41,17 @@
 	<tr>
      <td>F123456789</td>
      <td>王小明</td>
-     <td><input type="button" value="修改" style="width:60px;height:30px;background-color:#D2E9FF;">/<input type="button" value="刪除" style="width:60px;height:30px;background-color:#FF5F5F;"></td>
+     <td><input type="button" value="修改" style="width:60px;height:30px;border:2px none;background-color:#D2E9FF;">/<input type="button" value="刪除" style="width:60px;height:30px;border:2px none;background-color:#FF5F5F;"></td>
     </tr>
     <tr>
      <td>F987654321</td>
      <td>林一淋</td>
-    <td><input type="button" value="修改" style="width:60px;height:30px;background-color:#D2E9FF;">/<input type="button" value="刪除" style="width:60px;height:30px;background-color:#FF5F5F;"></td>
+    <td><input type="button" value="修改" style="width:60px;height:30px;border:2px none;background-color:#D2E9FF;">/<input type="button" value="刪除" style="width:60px;height:30px;border:2px none;background-color:#FF5F5F;"></td>
     </tr>
     <tr>
      <td>A123456789</td>
      <td>陳星星</td>
-     <td><input type="button" value="修改" style="width:60px;height:30px;background-color:#D2E9FF;">/<input type="button" value="刪除" style="width:60px;height:30px;background-color:#FF5F5F;"></td>
+     <td><input type="button" value="修改" style="width:60px;height:30px;border:2px none;background-color:#D2E9FF;">/<input type="button" value="刪除" style="width:60px;height:30px;border:2px none;background-color:#FF5F5F;"></td>
     </tr>
 	 <!-- 這裡有一段在TEXT0602 -->
 	
